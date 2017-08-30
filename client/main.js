@@ -1,3 +1,3 @@
 import React from 'react';
 
-import '/imports/startup/client'
+import '/imports/startup'
