@@ -1,1 +1,3 @@
-/* CSS declarations go here */
+/* Compile Partials */
+
+@import "{}/imports/ui/styles/app.scss";
