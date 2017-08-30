@@ -1,0 +1,55 @@
+.sideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.4s ease-in-out;
+
+  .close-btn {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+
+    button {
+      background: none;
+      border: none;
+      color: #FFF;
+      font-size: 1.3em;
+      outline: none;
+
+      &:hover {
+        color: #eee;
+      }
+    }
+  }
+
+  .overlay-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    padding: 1em;
+
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      color: #FFF;
+      display: block;
+      transition: 0.3s;
+      text-align: center;
+      height: 40px;
+      padding: 5px 0;
+
+      &:hover {
+        background-color: #CCCCCC;
+        color: #FFF;
+      }
+    }
+  }
+}
+
+.nav-toggled {
+  width: 250px;
+}

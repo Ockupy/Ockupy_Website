@@ -8,9 +8,9 @@ const Footer = () => (
         Edgewater, NJ 07020
       </p>
       <p className="phone">(855)&nbsp;662-5879</p>
+      <div className="copyright">&copy;&nbsp;Ockupy&nbsp;2017.</div>
     </div>
     <div className="logo"></div>
-    <div className="copyright">&copy;&nbsp;Ockupy&nbsp;2017.</div>
   </div>
 );
 
