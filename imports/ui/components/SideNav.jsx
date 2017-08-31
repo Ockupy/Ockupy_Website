@@ -15,10 +15,10 @@ class SideNav extends Component {
           <button id="close-nav">X</button>
         </div>
         <div className="overlay-content">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Projects</a>
-          <a href="">Contact</a>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/projects">Projects</a>
+          <a href="/contact">Contact</a>
         </div>
       </div>
     );

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import SideNav from '../components/SideNav';
+import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+
 
 class Home extends Component {
   componentWillMount() {
@@ -8,13 +10,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    let button = $('#nav-btn');
-    let sideNav = $('.sideNav');
-    let closeNav = $('#close-nav');
-
-    button.on('click', function () {
-      sideNav.toggleClass('nav-toggled');
-    });
+    //jquery
   }
 
   render() {
@@ -23,14 +19,7 @@ class Home extends Component {
         <SideNav />
         <div className="header">
           <div className="header-box">
-            <div className="navigation">
-              <div className="menu">
-                <a id="nav-btn" href="">menu</a>
-              </div>
-              <div className="logo-right">
-                <h2>Ockupy</h2>
-              </div>
-            </div>
+            <Nav />
           </div>
           <div className="header-text">
             <h1>we create</h1>
