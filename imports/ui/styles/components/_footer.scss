@@ -1,19 +1,31 @@
 #footer {
-  height: 150px;
+  display: flex;
   background: #eee;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  width: 100% !important;
+  margin-top: 50px;
 
   .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 2em 50px;
+    height: 120px;
+    width: 100%;
+    padding: 25px 50px;
 
-    p {
-      margin-bottom: 10px;
+    .info {
+      display: flex;
+      flex-direction: column;
+      height: inherit;
+    }
+
+    .address {
+      margin-bottom: 1.5em;
+    }
+
+    .copyright {
+      margin-top: 2em;
+      font-size: 0.8em;
     }
 
     .logo {
