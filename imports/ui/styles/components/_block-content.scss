@@ -10,18 +10,11 @@
     display: flex;
     flex-direction: row;
 
-    .left {
-      float: left;
-    }
-
-    .right {
-      float: right;
-    }
-
     .block {
       width: 40%;
       height: 350px !important;
       background: #eee;
+      overflow: hidden;
     }
 
     .text {
