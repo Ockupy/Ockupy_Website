@@ -4,7 +4,7 @@ export const ProjectBlock = (props) => {
   return (
     <div className="project-container">
       <div className="image">
-        <img src="" />
+        <img src={props.img} />
       </div>
       <div className="project-info">
         <div className="title">
