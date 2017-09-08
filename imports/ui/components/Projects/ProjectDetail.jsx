@@ -1,7 +1,8 @@
-import React, { Component } from '';
+import React, { Component } from 'react';
 import SideNav from '../SideNav';
 import Nav from '../Nav';
 import Footer from '../Footer';
+import FullImage from './Full-Image';
 
 class ProjectDetail extends Component {
 
@@ -12,9 +13,18 @@ class ProjectDetail extends Component {
 
   render() {
     return (
-      <SideNav />
-      <div className="full-header">
-        <Nav />
+      <div>
+        <SideNav />
+        <div className="full-header">
+          <Nav />
+          <div className="popout">
+            <h2 className="title">Hello</h2>
+            <div className="info"></div>
+          </div>
+        </div>
+        <FullImage />
+        <FullImage />
+        <Slider />
       </div>
     );
   }

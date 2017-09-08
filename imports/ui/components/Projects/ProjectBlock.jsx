@@ -8,7 +8,7 @@ export const ProjectBlock = (props) => {
       </div>
       <div className="project-info">
         <div className="title">
-          <h2>{props.title}</h2>
+          <a href={'/projects/' + props.link}><h2>{props.title}</h2></a>
         </div>
         <div className="description">
           <p>{props.description}</p>
