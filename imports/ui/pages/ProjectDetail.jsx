@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import SideNav from '../SideNav';
-import Nav from '../Nav';
-import Footer from '../Footer';
-import FullImage from './Full-Image';
+import SideNav from '../components/SideNav';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
+import { FullImage } from '../components/Projects/Full-Image';
+import Slider from '../components/Projects/Slider';
 
 class ProjectDetail extends Component {
 
@@ -18,12 +19,10 @@ class ProjectDetail extends Component {
         <div className="full-header">
           <Nav />
           <div className="popout">
-            <h2 className="title">Hello</h2>
+            <h2 className="title"></h2>
             <div className="info"></div>
           </div>
         </div>
-        <FullImage />
-        <FullImage />
         <Slider />
       </div>
     );

@@ -18,24 +18,22 @@ class Slider extends Component {
     return this.props.slides;
   }
 
-  renderSlides() {
-    return this.slides().map(slide => {
-      return (
-        <div className="swiper-slide" key={slide._id}>
-          <img className="swiper-slide-image" src={slide.image} />
-        </div>
-      )
-    })
-  }
+  // renderSlides() {
+  //   return this.slides().map(slide => {
+  //     return (
+  //       <div className="swiper-slide" key={slide._id}>
+  //         <img className="swiper-slide-image" src={slide.image} />
+  //       </div>
+  //     )
+  //   })
+  // }
 
 
   render() {
     return (
       <div className="swiper-container">
 
-        <div className="swiper-wrapper">
-          {this.renderSlides()}
-        </div>
+        <div className="swiper-wrapper"></div>
 
         <div className="swiper-pagination"></div>
 

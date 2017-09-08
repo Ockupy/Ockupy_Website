@@ -8,7 +8,7 @@ import Home from '../ui/pages/Home.jsx';
 import About from '../ui/pages/About';
 import Projects from '../ui/pages/Projects';
 import Contact from '../ui/pages/Contact';
-import ProjectDetail from '../ui/components/Projects/ProjectDetail';
+import ProjectDetail from '../ui/pages/ProjectDetail';
 
 FlowRouter.route('/', {
   action() {
@@ -35,7 +35,7 @@ FlowRouter.route('/projects/', {
 });
 
 FlowRouter.route('/projects/:id', {
-  action() {
+  action(params) {
     mount(App, {
       content: <ProjectDetail projectId={params.id}/>
     });

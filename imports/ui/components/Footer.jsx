@@ -12,7 +12,7 @@ const Footer = () => (
         <div className="copyright">&copy;&nbsp;Ockupy&nbsp;2017.</div>
       </div>
       <div className="logo">
-        <h2>Ockupy</h2>
+        <img src="/images/logo-black.png" />
       </div>
     </div>
   </div>

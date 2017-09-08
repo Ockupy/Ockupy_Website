@@ -18,7 +18,7 @@ class Nav extends Component {
           <a id="nav-btn" href="">menu</a>
         </div>
         <div className="logo-right">
-          <h2>Ockupy</h2>
+          <img src="/images/logo-black.png" />
         </div>
       </div>
     );

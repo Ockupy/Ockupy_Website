@@ -32,6 +32,11 @@
       align-self: flex-start;
       font-size: 2em;
       text-transform: uppercase;
+
+      img {
+        max-width: $logo-width;
+        max-height: $logo-height;
+      }
     }
   }
 }

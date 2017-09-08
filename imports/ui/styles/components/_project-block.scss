@@ -32,12 +32,15 @@
       margin-bottom: 0.5em;
 
       h2 {
-
+        text-decoration: none;
+        color: #000;
       }
     }
 
     .description {
       line-height: 20px;
+      text-decoration: none;
+      color: #000;
     }
   }
 }
