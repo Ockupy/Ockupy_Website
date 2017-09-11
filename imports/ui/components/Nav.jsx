@@ -15,10 +15,10 @@ class Nav extends Component {
     return (
       <div className="navigation">
         <div className="menu">
-          <a id="nav-btn" href="">menu</a>
+          <a id="nav-btn" href="" style={{ color: `${this.props.menuColor || '#000' }` }}>menu</a>
         </div>
         <div className="logo-right">
-          <img src="/images/logo-black.png" />
+          <img src={this.props.navLogo} />
         </div>
       </div>
     );

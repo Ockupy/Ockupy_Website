@@ -26,37 +26,6 @@ class ProjectDetail extends Component {
       })[0];
       return this.renderData(data);
     }
-
-    // if ( pathname === '/projects/lavati' ) {
-    //   data = this.state.data.filter(function (data) {
-    //     return data.link === 'lavati'
-    //   })[0];
-    //   return this.renderData(data);
-    //
-    // } else if ( pathname === '/projects/taphaus' ) {
-    //   data = this.state.data.filter(function (data) {
-    //     return data.link === 'taphaus'
-    //   })[0];
-    //   return this.renderData(data);
-    //
-    // } else if ( pathname === '/projects/bane' ) {
-    //   data = this.state.data.filter(function (data) {
-    //     return data.link === 'bane'
-    //   })[0];
-    //   return this.renderData(data);
-    //
-    // } else if ( pathname === '/projects/madd' ) {
-    //   data = this.state.data.filter(function (data) {
-    //     return data.link === 'madd'
-    //   })[0];
-    //   return this.renderData(data);
-    //
-    // } else if ( pathname === '/projects/aeon' ) {
-    //   data = this.state.data.filter(function (data) {
-    //     return data.link === 'aeon'
-    //   })[0];
-    //   return this.renderData(data);
-    // }
   }
 
   renderData(data) {
@@ -64,12 +33,16 @@ class ProjectDetail extends Component {
       <div>
         <SideNav />
         <div className="full-header" style={{ backgroundImage: `url('${data.header}')` }}>
-          <Nav />
+          <Nav
+            navLogo={data.logo}
+            menuColor={data.menuColor}
+          />
           <div className="popout">
             <h2 className="title">{data.title}</h2>
             <div className="info">{data.description}</div>
           </div>
         </div>
+        <FullImage />
         <Slider />
         <Footer />
       </div>
@@ -77,12 +50,15 @@ class ProjectDetail extends Component {
   }
 
   componentDidMount() {
+    // get projects from json file
     axios.get('/json/projects.json')
       .then(data => {
         this.setState({ data: data.data });
       });
 
     this.detectUrlData();
+
+
   }
 
 

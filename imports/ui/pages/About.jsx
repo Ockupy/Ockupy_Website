@@ -42,7 +42,9 @@ class About extends Component {
         <SideNav />
         <div className="header">
           <div className="header-box">
-            <Nav />
+            <Nav
+              navLogo='/images/logo-black.png'
+            />
           </div>
           <div className="header-text">
             <h1>we do</h1>
@@ -57,7 +59,7 @@ class About extends Component {
         <div className="about-slogan">
           <h2><span>big or small</span></h2>
         </div>
-        <h4 style={{textAlign: 'center'}}>We will do it - Get Started ></h4>
+        <h4 style={{textAlign: 'center', marginBottom: '3em'}}>We will do it - Get Started ></h4>
         <Footer />
       </div>
     );

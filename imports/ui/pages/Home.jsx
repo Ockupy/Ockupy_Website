@@ -21,7 +21,9 @@ class Home extends Component {
         <SideNav />
         <div className="header">
           <div className="header-box">
-            <Nav />
+            <Nav
+              navLogo='/images/logo-black.png'
+             />
           </div>
           <div className="header-text">
             <h1>we create</h1>

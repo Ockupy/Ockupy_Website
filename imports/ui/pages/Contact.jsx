@@ -13,7 +13,9 @@ class Contact extends Component {
     return (
       <div>
         <SideNav />
-        <Nav />
+        <Nav
+          navLogo='/images/logo-black.png'
+        />
         <h2>Contact Page</h2>
         <Footer />
       </div>

@@ -2,7 +2,8 @@
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
 
 
   .popout {
@@ -14,6 +15,7 @@
     top: 30%;
     padding: 15px;
     background: #eee;
+    opacity: 0.8;
 
     .title {
       text-align: center;
@@ -29,5 +31,7 @@
 }
 
 .full-img {
-
+  width: 100%;
+  height: 100vh;
+  background: #eee;
 }

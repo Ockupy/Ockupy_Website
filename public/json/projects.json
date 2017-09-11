@@ -2,8 +2,9 @@
   {
     "_id": 1,
     "link": "lavati",
+    "logo": "/images/logo-black.png",
     "img": "/images/lavati.jpg",
-    "header": "/images/projects-lavati.jpg",
+    "header": "/images/lavati/Case-Study_Lavati_v2_06.jpg",
     "title": "LAVATI",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
     "slider-images": [
@@ -15,8 +16,10 @@
   {
     "_id": 2,
     "link": "taphaus",
+    "logo": "/images/ockupy-logo.png",
     "img": "/images/projects-taphaus.jpg",
-    "header": "",
+    "header": "/images/taphaus/Case-Study_taphaus_02.jpg",
+    "menuColor": "#FFF",
     "title": "TAPHAUS",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
     "slider-images": [
@@ -28,8 +31,10 @@
   {
     "_id": 3,
     "link": "bane",
+    "logo": "/images/ockupy-logo.png",
     "img": "/images/projects-bane.jpg",
-    "header": "",
+    "header": "/images/bane/Case-Study_bane_v2_01.jpg",
+    "menuColor": "#FFF",
     "title": "BANE",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
     "slider-images": [
@@ -41,6 +46,7 @@
   {
     "_id": 4,
     "link": "madd",
+    "logo": "/images/logo-black.png",
     "img": "/images/projects-madd-coffee.jpg",
     "header": "",
     "title": "MADD COFFEE",
@@ -54,8 +60,10 @@
   {
     "_id": 5,
     "link": "aeon",
+    "logo": "/images/logo-black.png",
     "img": "/images/projects-aeon.jpg",
-    "header": "",
+    "header": "/images/aeon/Case-Study_AeonFunds_01.jpg",
+    "menuColor": "#FFF",
     "title": "AEON",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
     "slider-images": [

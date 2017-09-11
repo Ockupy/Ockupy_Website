@@ -33,7 +33,9 @@ class Projects extends Component {
     return (
       <div>
         <SideNav />
-        <Nav />
+        <Nav
+          navLogo='/images/logo-black.png'
+        />
           {this.renderProjects()}
         <Footer />
       </div>
