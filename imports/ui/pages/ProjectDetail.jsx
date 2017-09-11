@@ -15,43 +15,48 @@ class ProjectDetail extends Component {
     }
   }
 
-  componentWillMount() {
-
-  }
-
   detectUrlData() {
     let data;
     let pathname = window.location.pathname;
-    if ( pathname === '/projects/lavati' ) {
-      data = this.state.data.filter(function (data) {
-        return data.link === 'lavati'
-      })[0];
-      return this.renderData(data);
+    let project = pathname.slice(10);
 
-    } else if ( pathname === '/projects/taphaus' ) {
+    if (pathname === `/projects/${project}`) {
       data = this.state.data.filter(function (data) {
-        return data.link === 'taphaus'
-      })[0];
-      return this.renderData(data);
-
-    } else if ( pathname === '/projects/bane' ) {
-      data = this.state.data.filter(function (data) {
-        return data.link === 'bane'
-      })[0];
-      return this.renderData(data);
-
-    } else if ( pathname === '/projects/madd' ) {
-      data = this.state.data.filter(function (data) {
-        return data.link === 'madd'
-      })[0];
-      return this.renderData(data);
-
-    } else if ( pathname === '/projects/aeon' ) {
-      data = this.state.data.filter(function (data) {
-        return data.link === 'aeon'
+        return data.link === `${project}`;
       })[0];
       return this.renderData(data);
     }
+
+    // if ( pathname === '/projects/lavati' ) {
+    //   data = this.state.data.filter(function (data) {
+    //     return data.link === 'lavati'
+    //   })[0];
+    //   return this.renderData(data);
+    //
+    // } else if ( pathname === '/projects/taphaus' ) {
+    //   data = this.state.data.filter(function (data) {
+    //     return data.link === 'taphaus'
+    //   })[0];
+    //   return this.renderData(data);
+    //
+    // } else if ( pathname === '/projects/bane' ) {
+    //   data = this.state.data.filter(function (data) {
+    //     return data.link === 'bane'
+    //   })[0];
+    //   return this.renderData(data);
+    //
+    // } else if ( pathname === '/projects/madd' ) {
+    //   data = this.state.data.filter(function (data) {
+    //     return data.link === 'madd'
+    //   })[0];
+    //   return this.renderData(data);
+    //
+    // } else if ( pathname === '/projects/aeon' ) {
+    //   data = this.state.data.filter(function (data) {
+    //     return data.link === 'aeon'
+    //   })[0];
+    //   return this.renderData(data);
+    // }
   }
 
   renderData(data) {
