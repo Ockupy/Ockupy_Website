@@ -12,7 +12,7 @@ class SideNav extends Component {
     return (
       <div className="sideNav">
         <div className="close-btn">
-          <button id="close-nav">X</button>
+          <a id="close-nav" href="">close</a>
         </div>
         <div className="overlay-content">
           <a href="/">Home</a>
