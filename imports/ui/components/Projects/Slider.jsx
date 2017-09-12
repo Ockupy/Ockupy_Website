@@ -9,8 +9,6 @@ class Slider extends Component {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
       mousewheelControl: false,
-      speed: 400,
-      autoplay: 2000
     });
   }
 
@@ -18,29 +16,31 @@ class Slider extends Component {
     return this.props.slides;
   }
 
-  // renderSlides() {
-  //   return this.slides().map(slide => {
-  //     return (
-  //       <div className="swiper-slide" key={slide._id}>
-  //         <img className="swiper-slide-image" src={slide.image} />
-  //       </div>
-  //     )
-  //   })
-  // }
+  renderSlides() {
+    return this.slides().map(slide => {
+      return (
+        <div className="swiper-slide" key={slide._id}>
+          <img className="swiper-slide-image" src={slide.src} />
+        </div>
+      )
+    })
+  }
 
 
   render() {
     return (
       <div className="swiper-container">
 
-        <div className="swiper-wrapper"></div>
+        <div className="swiper-wrapper">
+          {this.renderSlides()}
+        </div>
 
         <div className="swiper-pagination"></div>
 
         <div className="swiper-button-prev"></div>
         <div className="swiper-button-next"></div>
       </div>
-    );
+    )
   }
 }
 

@@ -21,7 +21,7 @@ class Projects extends Component {
         <ProjectBlock
           key={project._id}
           link={project.link}
-          img={project.img}
+          img={project.projectImg}
           title={project.title}
           description={project.description}
         />

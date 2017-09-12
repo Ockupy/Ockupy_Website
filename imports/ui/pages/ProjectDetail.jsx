@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import { FullImage } from '../components/Projects/Full-Image';
 import Slider from '../components/Projects/Slider';
 import axios from 'axios';
+import Scrollbar from 'smooth-scrollbar';
 
 class ProjectDetail extends Component {
   constructor(props) {
@@ -30,9 +31,12 @@ class ProjectDetail extends Component {
 
   renderData(data) {
     return (
-      <div>
+      <div className="project-detail">
         <SideNav />
-        <div className="full-header" style={{ backgroundImage: `url('${data.header}')` }}>
+        <div className="full-header"
+            style=
+              {{ backgroundImage: `url('${data.header}')` }}
+            >
           <Nav
             navLogo={data.logo}
             menuColor={data.menuColor}
@@ -42,11 +46,23 @@ class ProjectDetail extends Component {
             <div className="info">{data.description}</div>
           </div>
         </div>
-        <FullImage />
-        <Slider />
+        <FullImage
+          image={data.image}
+        />
+        <Slider
+          slides={data.sliderImages}
+        />
         <Footer />
       </div>
     );
+  }
+
+  scrollbarInit() {
+    var scrollbar = Scrollbar.init(document.querySelector('.project-detail'), {
+      'speed': '4.2',
+      'overscrollEffect':'bounce',
+      'damping':'.04'
+    });
   }
 
   componentDidMount() {
@@ -57,8 +73,7 @@ class ProjectDetail extends Component {
       });
 
     this.detectUrlData();
-
-
+    this.scrollbarInit();
   }
 
 
