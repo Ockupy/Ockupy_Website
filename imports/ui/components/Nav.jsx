@@ -8,6 +8,7 @@ class Nav extends Component {
 
     button.on('click', function () {
       sideNav.toggleClass('nav-toggled');
+      $('#nav-btn').toggleClass('white');
     });
   }
 
