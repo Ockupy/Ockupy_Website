@@ -8,7 +8,7 @@ import ProjectData from '/public/json/projects.json';
 class Projects extends Component {
 
   componentDidMount() {
-    //
+    //jquery
   }
 
   projects() {

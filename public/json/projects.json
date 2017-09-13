@@ -8,6 +8,19 @@
     "image": "/images/lavati/Case-Study_Lavati_v2_09.jpg",
     "title": "LAVATI",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "detailDescription": [
+      {"_id": 1, "paragraph": "Lavati is a young company but has quickly made a name for itself in luxury fashion. Italian-made and Manhattan-based, Lavati called us to the table to help them launch their second footwear collection."},
+      {"_id": 2, "paragraph": "We partnered up with Migos’ Offset to create Lavati’s premier lookbook and the media needed to launch our press and marketing campaigns."}
+    ],
+    "detailServices": [
+      {"_id": 1, "service": "Graphic Design, Web design and Styling"},
+      {"_id": 2, "service": "Photography and Film Production/Editing"},
+      {"_id": 3, "service": "Socia Media Management"},
+      {"_id": 4, "service": "Influencer Marketing"},
+      {"_id": 5, "service": "Display Ad Marketing"},
+      {"_id": 6, "service": "Email Automation and Marketing"},
+      {"_id": 7, "service": "Adwords/Search Engine Marketing"}
+    ],
     "sliderImages": [
       {"_id": 1, "src": "/images/lavati/Case-Study_Lavati_v2_03.jpg"},
       {"_id": 2, "src": "/images/lavati/Case-Study_Lavati_v2_01.jpg"}
@@ -23,6 +36,19 @@
     "menuColor": "#FFF",
     "title": "TAPHAUS",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "detailDescription": [
+      {"_id": 1, "paragraph": "Already a mainstay in Jersey City, Taphaus expanded their incredible selection of craft brews into Hoboken."},
+      {"_id": 2, "paragraph": "To help spread the word, we designed a campaign around one of Taphaus’ most unique selling points: their dog-friendly outdoor seating. The doggy brunch featured raffle prizes, gifts and play areas for the dogs and endless mimosas and french toast bites for the humans."},
+      {"_id": 3, "paragraph": "In all, the event garnered sponsorships from local pet businesses, cable news coverage, and a sold out brunch that had Taphaus bustling all afternoon."}
+    ],
+    "detailServices": [
+      {"_id": 1, "service": "Social Media Management"},
+      {"_id": 2, "service": "Photography and Film Production/Editing"},
+      {"_id": 3, "service": "Graphic Design"},
+      {"_id": 4, "service": "Influencer Marketing"},
+      {"_id": 5, "service": "Display Ad Marketing"},
+      {"_id": 6, "service": "Email Automation and Marketing"}
+    ],
     "sliderImages": [
       {"_id": 1, "src": "/images/taphaus/Case-Study_taphaus_10.jpg"},
       {"_id": 2, "src": "/images/taphaus/Case-Study_taphaus_12.jpg"}
@@ -38,6 +64,19 @@
     "menuColor": "#FFF",
     "title": "BANE",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "detailDescription": [
+      {"_id": 1, "paragraph": "When asked their #1 goal, Bane replied, “To scare the shit out of 50,000 people”. This October will be the culmination of months of marketing and development."},
+      {"_id": 2, "paragraph": "Last year, over 30,000 visitors flocked to Bane to test their courage. To grow that figure, we advertised their escape rooms to increase brand awareness and relevance during the offseason. Their website received a well-needed facelift, and their social media was recharged to build anticipation for their Haunted House opening."}
+    ],
+    "detailServices": [
+      {"_id": 1, "service": "Graphic & Web Design"},
+      {"_id": 2, "service": "Social Media Management"},
+      {"_id": 3, "service": "Photography and Film Production/Editing"},
+      {"_id": 4, "service": "Influencer Marketing"},
+      {"_id": 5, "service": "Display Ad Marketing"},
+      {"_id": 6, "service": "PR Management"},
+      {"_id": 7, "service": "Email Automation and Marketing"}
+    ],
     "sliderImages": [
       {"_id": 1, "src": "/images/bane/Case-Study_bane_v2_02.jpg"},
       {"_id": 2, "src": "/images/bane/Case-Study_bane_v2_06.jpg"},
@@ -53,6 +92,15 @@
     "image": "/images/madd/",
     "title": "MADD COFFEE",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "detailDescription": [
+      {"_id": 1, "paragraph": "A new brand with a new product that walked into Ockupy with just a name and business plan."}
+    ],
+    "detailServices": [
+      {"_id": 1, "service": "Brand Identity"},
+      {"_id": 2, "service": "Website Design"},
+      {"_id": 3, "service": "Custom Shopify Template Development"},
+      {"_id": 4, "service": "(later) Packaging Design"}
+    ],
     "sliderImages": [
       {"_id": 1, "src": "/images/madd/"},
       {"_id": 2, "src": "/images/madd/"},
@@ -69,6 +117,12 @@
     "menuColor": "#FFF",
     "title": "AEON",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "detailDescription": [
+      {"_id": 1, "paragraph": "Aeon wanted a website that reflected their leading-edge investments."}
+    ],
+    "detailServices": [
+      {"_id": 1, "service": "Custom Wordpress Template Development"}
+    ],
     "sliderImages": [
       {"_id": 1, "src": ""},
       {"_id": 2, "src": ""}

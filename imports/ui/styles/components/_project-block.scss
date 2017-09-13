@@ -5,11 +5,13 @@
   flex-direction: column;
 
   &:nth-child(even) {
-    margin-right: -10em;
+    .image {
+      margin: 0 auto;
+    }
 
     .project-info {
       top: -4em;
-      left: 10em;
+      left: 25em;
     }
   }
 

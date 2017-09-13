@@ -43,7 +43,20 @@ class ProjectDetail extends Component {
           />
           <div className="popout">
             <h2 className="title">{data.title}</h2>
-            <div className="info">{data.description}</div>
+            <div className="info">
+              {data.detailDescription.map((p) => {
+                return <p key={p._id}>{p.paragraph}</p>
+              })}
+              {data.detailServices ?
+                <div>
+                  <h3>Services:</h3>
+                  <ul>
+                    {data.detailServices.map((li) => {
+                      return <li key={li._id}>{li.service}</li>
+                    })}
+                  </ul>
+                </div> : null}
+            </div>
           </div>
         </div>
         <FullImage
@@ -58,7 +71,7 @@ class ProjectDetail extends Component {
   }
 
   scrollbarInit() {
-    var scrollbar = Scrollbar.init(document.querySelector('.project-detail'), {
+    let scrollbar = Scrollbar.init(document.querySelector('.project-detail'), {
       'speed': '4.2',
       'overscrollEffect':'bounce',
       'damping':'.04'
