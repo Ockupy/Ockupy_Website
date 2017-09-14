@@ -15,8 +15,17 @@ class Nav extends Component {
   render() {
     return (
       <div className="navigation">
-        <div className="menu">
-          <a id="nav-btn" href="" style={{ color: `${this.props.menuColor || '#000' }` }}>menu</a>
+        <div className="menu"
+          style={{
+            color: `${this.props.menuColor || '#000' }`
+          }}>
+          <a
+            style={{
+              color: `${this.props.menuColor || '#000' }`,
+              borderTopColor: `${this.props.menuColor || '#000' }`,
+              borderBottomColor: `${this.props.menuColor || '#000' }`
+            }}
+            id="nav-btn" href="">menu</a>
         </div>
         <div className="logo-right">
           <img src={this.props.navLogo} />

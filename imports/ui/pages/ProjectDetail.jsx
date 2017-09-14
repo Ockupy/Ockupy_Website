@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import { FullImage } from '../components/Projects/Full-Image';
 import Slider from '../components/Projects/Slider';
 import axios from 'axios';
-import Scrollbar from 'smooth-scrollbar';
 
 class ProjectDetail extends Component {
   constructor(props) {
@@ -70,14 +69,6 @@ class ProjectDetail extends Component {
     );
   }
 
-  scrollbarInit() {
-    let scrollbar = Scrollbar.init(document.querySelector('.project-detail'), {
-      'speed': '4.2',
-      'overscrollEffect':'bounce',
-      'damping':'.04'
-    });
-  }
-
   componentDidMount() {
     // get projects from json file
     axios.get('/json/projects.json')
@@ -86,13 +77,12 @@ class ProjectDetail extends Component {
       });
 
     this.detectUrlData();
-    this.scrollbarInit();
   }
 
 
   render() {
     return (
-      <div className="page-content-wrapper hideme">
+      <div>
         {this.detectUrlData()}
       </div>
     );

@@ -8,7 +8,20 @@ import ProjectData from '/public/json/projects.json';
 class Projects extends Component {
 
   componentDidMount() {
-    //jquery
+    var lastScrollTop = 0;
+    document.addEventListener("scroll", function(){
+      var st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop){
+        // downscroll code
+        console.log('down');
+
+      } else {
+        // upscroll code
+        console.log('up');
+        
+      }
+      lastScrollTop = st;
+    }, false);
   }
 
   projects() {
@@ -36,7 +49,7 @@ class Projects extends Component {
         <Nav
           navLogo='/images/logo-black.png'
         />
-          {this.renderProjects()}
+        {this.renderProjects()}
         <Footer />
       </div>
     );

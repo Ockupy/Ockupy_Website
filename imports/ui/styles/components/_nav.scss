@@ -8,6 +8,7 @@
   .menu {
     margin-top: 6.5px;
     z-index: 200;
+    text-decoration: none;
 
     a {
       text-decoration: none;
@@ -21,6 +22,7 @@
       color: #FFF !important;
       border-top-color: #FFF !important;
       border-bottom-color: #FFF !important;
+      transition: 0.1s ease-in-out;
     }
   }
 
