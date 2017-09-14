@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SideNav from '../components/SideNav';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { FullImage } from '../components/Projects/Full-Image';
@@ -31,7 +30,6 @@ class ProjectDetail extends Component {
   renderData(data) {
     return (
       <div className="project-detail">
-        <SideNav />
         <div className="full-header"
             style=
               {{ backgroundImage: `url('${data.header}')` }}

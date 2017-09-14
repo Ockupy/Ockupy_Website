@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SideNav from '../components/SideNav';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { ProjectBlock } from '../components/Projects/ProjectBlock';
@@ -13,12 +12,10 @@ class Projects extends Component {
       var st = window.pageYOffset || document.documentElement.scrollTop;
       if (st > lastScrollTop){
         // downscroll code
-        console.log('down');
-
+        // console.log('down');
       } else {
         // upscroll code
-        console.log('up');
-        
+        // console.log('up');
       }
       lastScrollTop = st;
     }, false);
@@ -45,7 +42,6 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <SideNav />
         <Nav
           navLogo='/images/logo-black.png'
         />

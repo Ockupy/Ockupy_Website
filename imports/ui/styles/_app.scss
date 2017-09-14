@@ -4,6 +4,7 @@
 @import "{}/imports/ui/styles/base/reset.scss";
 @import "{}/imports/ui/styles/base/variables.scss";
 @import "{}/imports/ui/styles/base/typeography.scss";
+@import "{}/imports/ui/styles/base/global.scss";
 
 
 /*********************************
@@ -20,12 +21,8 @@
   All Component Styles Here
 *********************************/
 @import "{}/imports/ui/styles/components/nav.scss";
-@import "{}/imports/ui/styles/components/sideNav.scss";
 @import "{}/imports/ui/styles/components/footer.scss";
-@import "{}/imports/ui/styles/components/block-content.scss";
 @import "{}/imports/ui/styles/components/project-block.scss";
-
-
 
 
 

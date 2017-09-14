@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import SideNav from '../components/SideNav';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 
@@ -12,7 +11,6 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <SideNav />
         <Nav
           navLogo='/images/logo-black.png'
         />
