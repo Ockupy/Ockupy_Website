@@ -88,8 +88,8 @@
     "link": "madd",
     "logo": "/images/logo-black.png",
     "projectImg": "/images/projects-madd-coffee.jpg",
-    "header": "",
-    "image": "/images/madd/",
+    "header": "/images/madd/",
+    "image": "/images/madd/Case-Study_Madd_08.jpg",
     "title": "MADD COFFEE",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
     "detailDescription": [

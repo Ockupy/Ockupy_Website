@@ -1,40 +1,42 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import SideScroll from '../components/SideScroll';
 
 class Home extends Component {
 
   componentDidMount() {
-    var didScroll;
-
-    $(window).scroll(function (event) {
-      didScroll = true;
-    });
-
-    setInterval(function () {
-      if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-      }
-    }, 2000);
-
-    function hasScrolled() {
-      //show the menu
-    }
+    //jquery
   }
 
   render() {
     return (
       <div>
-        <div className="header">
-          <div className="header-box">
-            <Nav
-              navLogo='/images/logo-black.png'
-             />
+        <Nav
+          navLogo='/images/logo-black.png'
+        />
+        <SideScroll />
+        <div className="page-content-wrapper">
+          <div className="ockupy-header">
+            <h1>Ockypy</h1>
+            <h1>We Make it Happen!</h1>
           </div>
-          <div className="header-text">
-            <h1>we create</h1>
-            <h1>things</h1>
+          <div className="content-box"></div>
+          <div className="featured-content">
+            <div className="featured-text">
+              <h2>Featured Stuff</h2>
+              <p>Check some stuff out</p>
+            </div>
+            <div className="featured-wrapper">
+              <div className="block"></div>
+              <div className="block"></div>
+              <div className="block"></div>
+              <div className="block"></div>
+              <div className="block"></div>
+              <div className="block"></div>
+              <div className="block"></div>
+              <div className="block"></div>
+            </div>
           </div>
         </div>
         <Footer />

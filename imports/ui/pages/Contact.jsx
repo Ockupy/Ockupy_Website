@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
+import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 
 class Contact extends Component {
@@ -14,7 +15,10 @@ class Contact extends Component {
         <Nav
           navLogo='/images/logo-black.png'
         />
-        <h2>Contact Page</h2>
+        <div className="page-content-wrapper">
+          <h2 style={{ textAlign: 'center' }}>Contact Page</h2>
+          <ContactForm />
+        </div>
         <Footer />
       </div>
     );

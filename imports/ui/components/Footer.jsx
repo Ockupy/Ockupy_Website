@@ -11,9 +11,11 @@ const Footer = () => (
         <p className="phone">(855)&nbsp;662-5879</p>
         <div className="copyright">&copy;&nbsp;Ockupy&nbsp;2017.</div>
       </div>
-      <div className="logo">
-        <img src="/images/logo-black.png" />
-      </div>
+      <h1 className="logo">
+        <a href="/">
+          <img src="/images/logo-black.png" />
+        </a>
+      </h1>
     </div>
   </div>
 );

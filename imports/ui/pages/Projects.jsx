@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import SideScroll from '../components/SideScroll';
 import { ProjectBlock } from '../components/Projects/ProjectBlock';
 import ProjectData from '/public/json/projects.json';
 
@@ -45,7 +46,10 @@ class Projects extends Component {
         <Nav
           navLogo='/images/logo-black.png'
         />
-        {this.renderProjects()}
+        <SideScroll />
+        <div className="page-content-wrapper">
+          {this.renderProjects()}
+        </div>
         <Footer />
       </div>
     );

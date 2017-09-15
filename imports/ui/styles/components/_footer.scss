@@ -10,7 +10,7 @@
     align-items: center;
     height: 120px;
     width: 100%;
-    padding: 25px 50px;
+    padding: 25px 7%;
 
     .info {
       display: flex;
@@ -29,12 +29,11 @@
 
     .logo {
       align-self: flex-start;
-      font-size: 2em;
-      text-transform: uppercase;
 
       img {
         max-width: $logo-width;
-        max-height: $logo-height;
+        position: absolute;
+        right: 7%;
       }
     }
   }

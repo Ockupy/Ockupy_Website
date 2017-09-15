@@ -7,13 +7,22 @@ class Nav extends Component {
 
   render() {
     return (
-      <div className="navigation">
-        <div className="menu">
-          <a id="nav-btn" href="">menu</a>
-        </div>
-        <div className="logo-right">
-          <img src={this.props.navLogo} />
-        </div>
+      <div className="navigation-wrapper">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="/">Home<span className="underline"></span></a></li>
+              <li><a href="/about">About<span className="underline"></span></a></li>
+              <li><a href="/projects">Projects<span className="underline"></span></a></li>
+              <li><a href="/contact">Contact<span className="underline"></span></a></li>
+            </ul>
+          </nav>
+        </header>
+        <h1 className="logo">
+          <a href="/">
+            <img src="/images/logo-black.png" />
+          </a>
+        </h1>
       </div>
     );
   }
