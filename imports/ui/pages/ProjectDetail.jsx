@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
+import SideScroll from '../components/SideScroll';
 import Footer from '../components/Footer';
 import { FullImage } from '../components/Projects/Full-Image';
 import Slider from '../components/Projects/Slider';
@@ -29,15 +30,11 @@ class ProjectDetail extends Component {
 
   renderData(data) {
     return (
-      <div className="project-detail">
+      <div className="page-content-wrapper">
         <div className="full-header"
             style=
               {{ backgroundImage: `url('${data.header}')` }}
             >
-          <Nav
-            navLogo={data.logo}
-            menuColor={data.menuColor}
-          />
           <div className="popout">
             <h2 className="title">{data.title}</h2>
             <div className="info">
@@ -62,7 +59,6 @@ class ProjectDetail extends Component {
         <Slider
           slides={data.sliderImages}
         />
-        <Footer />
       </div>
     );
   }
@@ -81,7 +77,12 @@ class ProjectDetail extends Component {
   render() {
     return (
       <div>
+        <Nav
+          navLogo='/images/logo-black.png'
+        />
+        <SideScroll />
         {this.detectUrlData()}
+        <Footer />
       </div>
     );
   }

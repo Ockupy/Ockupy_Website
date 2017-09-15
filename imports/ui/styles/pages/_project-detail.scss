@@ -1,6 +1,6 @@
 .full-header {
   width: 100%;
-  height: 100vh;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -50,7 +50,7 @@
 
 
 .swiper-container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 
   .swiper-button-prev {
@@ -62,10 +62,10 @@
   }
 
   .swiper-slide {
-    width: 100vw;
+    width: 100%;
 
     img {
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       object-fit: cover;
     }

@@ -17,11 +17,10 @@ class Home extends Component {
         />
         <SideScroll />
         <div className="page-content-wrapper">
-          <div className="ockupy-header">
+          <div className="content-box">
             <h1>Ockypy</h1>
             <h1>We Make it Happen!</h1>
           </div>
-          <div className="content-box"></div>
           <div className="featured-content">
             <div className="featured-text">
               <h2>Featured Stuff</h2>

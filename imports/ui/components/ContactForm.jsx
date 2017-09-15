@@ -20,10 +20,6 @@ class ContactForm extends Component {
             <input type="text" ref="email" placeholder="Your Email" required/><br />
           </div>
           <div className="row">
-            <label>Subject</label><br />
-            <input type="text" ref="subject" placeholder="Your Subject" required/><br />
-          </div>
-          <div className="row">
             <label>Message</label><br />
             <textarea ref="message" placeholder="Compose your Message Here" rows="7"></textarea><br />
           </div>

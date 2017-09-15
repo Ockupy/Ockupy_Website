@@ -52,11 +52,11 @@ class About extends Component {
             <div className="employee-wrapper">
               {this.renderBlocks()}
             </div>
+            <div className="about-slogan">
+              <h2><span>big or small</span></h2>
+            </div>
+            <h4 style={{textAlign: 'center', marginBottom: '3em'}}>We will do it - Get Started ></h4>
           </div>
-          <div className="about-slogan">
-            <h2><span>big or small</span></h2>
-          </div>
-          <h4 style={{textAlign: 'center', marginBottom: '3em'}}>We will do it - Get Started ></h4>
         </div>
         <Footer />
       </div>
