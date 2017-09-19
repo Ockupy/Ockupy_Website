@@ -3,19 +3,15 @@ import React from 'react';
 const Footer = () => (
   <div id="footer">
     <div className="wrapper">
+      <div className="title">Contact Us</div>
       <div className="info">
         <p className="address">
-          115 River Rd. Suite 151 <br />
-          Edgewater, NJ 07020
+          115 River Rd. Suite 151 Edgewater, NJ 07020
         </p>
         <p className="phone">(855)&nbsp;662-5879</p>
-        <div className="copyright">&copy;&nbsp;Ockupy&nbsp;2017.</div>
+        <p className="email">info@ockupy.com</p>
       </div>
-      <h1 className="logo">
-        <a href="/">
-          <img src="/images/logo-black.png" />
-        </a>
-      </h1>
+      <p className="copyright">Copyright 2017 - Ockupy. All rights reserved.</p>
     </div>
   </div>
 );

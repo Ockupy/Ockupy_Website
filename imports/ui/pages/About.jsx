@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import SideScroll from '../components/SideScroll';
 
 class About extends Component {
 
@@ -42,7 +41,6 @@ class About extends Component {
         <Nav
           navLogo='/images/logo-black.png'
         />
-        <SideScroll />
         <div className="page-content-wrapper">
           <div className="header-text" style={{ textAlign: 'center', fontSize: '30px' }}>
             <h1>we do</h1>

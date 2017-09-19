@@ -1,40 +1,30 @@
 #footer {
   display: flex;
-  background: #F5F5F5;
+  background: $light-blue;
   width: 100% !important;
 
   .wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 120px;
+    flex-direction: column;
+    margin: 1em 7%;
     width: 100%;
-    padding: 25px 7%;
+
+    .title {
+      margin-bottom: 1em;
+      font-size: 20px;
+      font-weight: 600;
+    }
 
     .info {
       display: flex;
-      flex-direction: column;
-      height: inherit;
-    }
-
-    .address {
-      margin-bottom: 1.5em;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 2em;
     }
 
     .copyright {
-      margin-top: 2em;
-      font-size: 0.8em;
-    }
-
-    .logo {
-      align-self: flex-start;
-
-      img {
-        max-width: $logo-width;
-        position: absolute;
-        right: 7%;
-      }
+      text-align: center;
+      margin-bottom: 1em;
     }
   }
 }

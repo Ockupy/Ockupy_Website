@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
-import SideScroll from '../components/SideScroll';
 import Footer from '../components/Footer';
 import { FullImage } from '../components/Projects/Full-Image';
 import Slider from '../components/Projects/Slider';
@@ -80,7 +79,6 @@ class ProjectDetail extends Component {
         <Nav
           navLogo='/images/logo-black.png'
         />
-        <SideScroll />
         {this.detectUrlData()}
         <Footer />
       </div>

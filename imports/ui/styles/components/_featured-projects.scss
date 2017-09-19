@@ -1,0 +1,91 @@
+
+.featured-projects {
+
+  .background {
+    font-size: 100px;
+    font-weight: 400;
+    color: purple;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0.5em;
+
+    //line behind featured
+    &::before {
+      border-top: 5px solid #eee;
+      content: "";
+      margin: 0 auto; /* this centers the line to the full width specified */
+      position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+      top: 25%;
+      left: 0;
+      right: 65%;
+      bottom: 0;
+      width: 300px;
+      z-index: -1;
+      -ms-transform: rotate(17deg); /* IE 9 */
+      -ms-transform-origin: 20% 40%; /* IE 9 */
+      -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
+      -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+      transform: rotate(17deg);
+      transform-origin: 20% 40%;
+    }
+  }
+
+  .projects-wrapper {
+
+    .project-left {
+      width: 500px;
+      height: 300px;
+      background: #eee;
+      margin-bottom: 2em;
+      background-size: cover;
+      box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
+      -webkit-clip-path: polygon(0% 0%, 0 100%, 58% 100%, 58% 60%, 100% 60%, 100% 100%, 100% 0%);
+      clip-path: polygon(0% 0%, 0 100%, 58% 100%, 58% 60%, 100% 60%, 100% 100%, 100% 0%);
+
+      .info {
+
+      }
+    }
+
+    .project-right {
+      width: 500px;
+      height: 300px;
+      background: #eee;
+      margin-bottom: 2em;
+      background-size: cover;
+      box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
+      position: relative;
+      left: 50%;
+      -webkit-clip-path: polygon(0 0, 0% 100%, 0 100%, 0 62%, 36% 62%, 36% 100%, 100% 100%, 100% 0);
+      clip-path: polygon(0 0, 0% 100%, 0 100%, 0 62%, 36% 62%, 36% 100%, 100% 100%, 100% 0);
+    }
+  }
+
+  .view-background {
+    width: 400px;
+    margin: 3em auto;
+    // -webkit-transform: ;
+    transform: perspective(300px) rotateY(47deg) rotateX(66deg);
+    transform-origin: center;
+
+    &::before {
+
+    }
+
+    .btn {
+      margin: 0 auto;
+      width: 300px;
+      height: 75px;
+      background-color: $light-blue;
+      box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
+      // -webkit-transform: ;
+      transform: perspective(400px) rotateX(-14deg) rotateY(-1deg);
+      transform-origin: center;
+
+      h1 {
+        position: relative;
+        top: 10%;
+      }
+    }
+  }
+}

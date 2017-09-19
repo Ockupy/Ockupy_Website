@@ -16,7 +16,7 @@ class Contact extends Component {
           navLogo='/images/logo-black.png'
         />
         <div className="page-content-wrapper">
-          <h2 style={{ textAlign: 'center' }}>Contact Page</h2>
+          <h1 style={{ textAlign: 'center' }}>Contact Page</h1>
           <ContactForm />
         </div>
         <Footer />

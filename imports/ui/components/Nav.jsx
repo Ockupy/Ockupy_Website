@@ -2,7 +2,16 @@ import React, { Component } from 'react';
 
 class Nav extends Component {
   componentDidMount() {
-    //jquery
+
+    $(window).scroll(function () {
+      // console.log($(window).scrollTop());
+      if ($(window).scrollTop() < 60) {
+        $('.navigation-wrapper').removeClass('fixed');
+      }
+      if ($(window).scrollTop() > 60) {
+        $('.navigation-wrapper').addClass('fixed');
+      }
+    });
   }
 
   render() {
@@ -11,7 +20,6 @@ class Nav extends Component {
         <header>
           <nav>
             <ul>
-              <li><a href="/">Home<span className="underline"></span></a></li>
               <li><a href="/about">About<span className="underline"></span></a></li>
               <li><a href="/projects">Projects<span className="underline"></span></a></li>
               <li><a href="/contact">Contact<span className="underline"></span></a></li>
