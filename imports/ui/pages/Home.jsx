@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import FeaturedProjects from '../components/Projects/FeaturedProjects';
+import { LetsWork } from '../components/LetsWork';
 
 class Home extends Component {
 
@@ -31,15 +32,7 @@ class Home extends Component {
             </div>
           </div>
           <FeaturedProjects />
-          <div className="lets-work">
-            <div className="wrapper">
-              <div className="content">
-                <h1>lets work</h1>
-                <p>One Small Step Towards a Better Brand</p>
-                <span id="link"><a href="/contact">Get Started</a></span>
-              </div>
-            </div>
-          </div>
+          <LetsWork />
         </div>
         <Footer />
       </div>

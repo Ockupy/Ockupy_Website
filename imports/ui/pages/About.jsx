@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import { AboutServices } from '../components/About-Services';
+import { LetsWork } from '../components/LetsWork';
 
 
 class About extends Component {
@@ -24,16 +26,16 @@ class About extends Component {
             <div className="block-wrapper">
               <div className="block">
                 <p>Putting together a marketing campaign or building a new website requires many different inputs. These projects require strategy, design, development, and media. Trying to work with multiple companies and freelancers can complicate the process and result in a poor product.</p>
-                <div className="bar"></div>
               </div>
             </div>
             <div className="block-wrapper">
               <div className="block">
                 <p>Everything we create, we do in house. Brand Development, photography, design, social media marketing, web development - every digital service is produce in our studio where each team can actively collaborate on projects to produce the best possible website, app, or marketing.</p>
-                <div className="bar"></div>
               </div>
             </div>
           </div>
+          <AboutServices />
+          <LetsWork />
         </div>
         <Footer />
       </div>

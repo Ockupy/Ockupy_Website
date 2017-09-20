@@ -21,20 +21,32 @@
       height: inherit;
       background: #eee;
 
+      &:nth-child(1) {
+        &::before {
+          border-top: 10px solid #eee;
+          content: "";
+          margin: 0 auto;
+          position: absolute;
+          top: 125%;
+          left: -38%;
+          right: 0;
+          bottom: 0;
+          width: 900px;
+          z-index: -2;
+          -ms-transform: rotate(-43deg);
+          -ms-transform-origin: left;
+          -webkit-transform: rotate(-43deg);
+          -webkit-transform-origin: left;
+          transform: rotate(-43deg);
+          transform-origin: left;
+        }
+      }
+
       p {
         padding: 5% 7%;
         font-size: 22px;
         line-height: 1.5em;
         text-align: left;
-      }
-
-      .bar {
-        position: relative;
-        left: 0;
-        bottom: 0;
-        height: 100%;
-        width: 3%;
-        background: #000;
       }
     }
   }

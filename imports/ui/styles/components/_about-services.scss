@@ -1,0 +1,38 @@
+
+.services {
+
+  h1 {
+    width: 100%;
+    height: inherit;
+    margin-bottom: 0.5em;
+    font-size: 85px;
+    font-weight: 100;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+
+    .list {
+      width: 50%;
+
+      ul {
+        list-style-position: inside;
+        list-style-type: none;
+
+        li {
+          text-indent: 5px;
+          padding: 10px 0;
+          font-size: 45px;
+          font-weight: 200;
+          letter-spacing: 4px;
+
+          &::before {
+            content: "-";
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
