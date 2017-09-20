@@ -29,7 +29,7 @@ class About extends Component {
               </div>
             </div>
             <div className="block-wrapper">
-              <div className="block">
+              <div className="block-2">
                 <p>Everything we create, we do in house. Brand Development, photography, design, social media marketing, web development - every digital service is produce in our studio where each team can actively collaborate on projects to produce the best possible website, app, or marketing.</p>
               </div>
             </div>

@@ -21,10 +21,6 @@
       bottom: 0;
       width: 300px;
       z-index: -1;
-      -ms-transform: rotate(17deg); /* IE 9 */
-      -ms-transform-origin: 20% 40%; /* IE 9 */
-      -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
-      -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
       transform: rotate(17deg);
       transform-origin: 20% 40%;
     }
