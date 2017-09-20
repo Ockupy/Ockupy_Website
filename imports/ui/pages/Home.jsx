@@ -31,6 +31,15 @@ class Home extends Component {
             </div>
           </div>
           <FeaturedProjects />
+          <div className="lets-work">
+            <div className="wrapper">
+              <div className="content">
+                <h1>lets work</h1>
+                <p>One Small Step Towards a Better Brand</p>
+                <span id="link"><a href="/contact">Get Started</a></span>
+              </div>
+            </div>
+          </div>
         </div>
         <Footer />
       </div>

@@ -1,65 +1,41 @@
+.about-info {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
 
-.header-text {
-  h1 {
-    font-size: 50px;
-  }
-}
-
-
-.employee-container {
-  max-width: 1000px;
-  margin: 0 auto;
-
-  .employee-wrapper {
+  .block-wrapper {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5em;
+    padding: 0 10%;
 
-    .employee {
-      display: flex;
-      flex-direction: column;
-      width: calc(100% * (1/4) - 10px - 1px);
-      margin: 20px 0;
-
-      .avatar {
-        height: 200px;
-        width: 150px;
-        background: #eee;
-        margin: 0 auto 15px auto;
-      }
-
-      .employee-info {
-        text-align: center;
-        width: 200px;
-        margin: 0 auto;
-
-        .employee-name {
-          margin-bottom: 5px;
-        }
-      }
+    &:nth-child(even) {
+      justify-content: flex-end;
     }
-  }
-}
 
-.about-slogan {
-  margin: 80px 0 50px 0;
+    .block {
+      width: 60%;
+      height: inherit;
+      background: #eee;
 
-  h2 {
-    width: 88%;
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    border-bottom: 9px solid grey;
-    line-height: 0.1em;
+      p {
+        padding: 5% 7%;
+        font-size: 22px;
+        line-height: 1.5em;
+        text-align: left;
+      }
 
-    span {
-      background:#fff;
-      padding:0 7%;
-      font-size: 45px;
-      position: relative;
-      top: 15px;
+      .bar {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+        width: 3%;
+        background: #000;
+      }
     }
   }
 }
