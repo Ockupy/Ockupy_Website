@@ -21,10 +21,11 @@
 .home-info {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   height: inherit;
   margin-bottom: 3em;
+  position: relative;
 
   .block-one {
     position: relative;
@@ -36,6 +37,23 @@
     margin-bottom: 1em;
     padding: 3%;
     box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
+
+    &::before {
+      border-top: 10px solid #eee;
+      content: "";
+      margin: 0 auto;
+      position: absolute;
+      top: 240%;
+      left: -88%;
+      bottom: 0;
+      width: 1200px;
+      height: 2px;
+      z-index: -2;
+      -webkit-transform: rotate(-43deg);
+      transform: rotate(-43deg);
+      -webkit-transform-origin: left;
+      transform-origin: left;
+    }
 
     p {
       text-align: left;
@@ -57,11 +75,28 @@
     position: relative;
     left: 60%;
     bottom: 0;
-    width: 250px;
+    width: 320px;
     height: inherit;
     background: #F5F5F5;
     padding: 3%;
     box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
+
+    &::before {
+      border-top: 10px solid #eee;
+      content: "";
+      margin: 0 auto;
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      bottom: 0;
+      width: 900px;
+      height: 2px;
+      z-index: -2;
+      -webkit-transform: rotate(-43deg);
+      transform: rotate(-43deg);
+      -webkit-transform-origin: left;
+      transform-origin: left;
+    }
 
     p {
       text-align: left;

@@ -7,6 +7,7 @@ import ProjectData from '/public/json/projects.json';
 class Projects extends Component {
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     var lastScrollTop = 0;
     document.addEventListener("scroll", function(){
       var st = window.pageYOffset || document.documentElement.scrollTop;

@@ -32,11 +32,6 @@ class FeaturedProjects extends Component {
             </div>
           </div>
         </div> {/*  End Project Wrapper  */}
-        <div className="view-background">
-          <div className="btn">
-            <a href="/projects"><h1>view all projects</h1></a>
-          </div>
-        </div>
       </div>
     );
   }

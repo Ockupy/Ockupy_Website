@@ -1,0 +1,22 @@
+.view-background {
+  width: 500px;
+  height: 150px;
+  margin: 3em auto;
+  background-image: url('/images/Homepage_v2_07.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    margin-top: -5%;
+    text-decoration: none;
+
+    h1 {
+      text-align: center;
+    }
+  }
+}

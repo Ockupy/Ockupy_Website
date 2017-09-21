@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 class Contact extends Component {
 
   componentDidMount() {
-    //jquery
+    window.scrollTo(0, 0);
   }
 
   render() {

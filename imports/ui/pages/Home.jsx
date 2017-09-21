@@ -3,11 +3,12 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import FeaturedProjects from '../components/Projects/FeaturedProjects';
 import { LetsWork } from '../components/LetsWork';
+import { ViewProjectsBtn } from '../components/Projects/ViewProjectsBtn';
 
 class Home extends Component {
 
   componentDidMount() {
-    //jquery
+    window.scrollTo(0,0);
   }
 
   render() {
@@ -32,6 +33,7 @@ class Home extends Component {
             </div>
           </div>
           <FeaturedProjects />
+          <ViewProjectsBtn />
           <LetsWork />
         </div>
         <Footer />

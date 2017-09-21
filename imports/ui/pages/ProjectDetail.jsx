@@ -63,6 +63,7 @@ class ProjectDetail extends Component {
   }
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     // get projects from json file
     axios.get('/json/projects.json')
       .then(data => {

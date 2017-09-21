@@ -25,12 +25,12 @@ class Nav extends Component {
               <li><a href="/contact">Contact<span className="underline"></span></a></li>
             </ul>
           </nav>
+          <h1 className="logo">
+            <a href="/">
+              <img src="/images/logo-black.png" />
+            </a>
+          </h1>
         </header>
-        <h1 className="logo">
-          <a href="/">
-            <img src="/images/logo-black.png" />
-          </a>
-        </h1>
       </div>
     );
   }
