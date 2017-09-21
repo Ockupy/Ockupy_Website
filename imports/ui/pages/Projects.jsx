@@ -31,7 +31,7 @@ class Projects extends Component {
       return (
         <ProjectBlock
           key={project._id}
-          link={project.link}
+          link={`/projects/${project.link}`}
           img={project.projectImg}
           title={project.title}
           description={project.description}

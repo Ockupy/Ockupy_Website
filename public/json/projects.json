@@ -7,7 +7,7 @@
     "header": "/images/lavati/Case-Study_Lavati_v2_06.jpg",
     "image": "/images/lavati/Case-Study_Lavati_v2_09.jpg",
     "title": "LAVATI",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "description": "Modern Fashion Shoes",
     "detailDescription": [
       {"_id": 1, "paragraph": "Lavati is a young company but has quickly made a name for itself in luxury fashion. Italian-made and Manhattan-based, Lavati called us to the table to help them launch their second footwear collection."},
       {"_id": 2, "paragraph": "We partnered up with Migos’ Offset to create Lavati’s premier lookbook and the media needed to launch our press and marketing campaigns."}
@@ -35,7 +35,7 @@
     "image": "/images/taphaus/Case-Study_taphaus_06.jpg",
     "menuColor": "#FFF",
     "title": "TAPHAUS",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "description": "Restaurant Marketing",
     "detailDescription": [
       {"_id": 1, "paragraph": "Already a mainstay in Jersey City, Taphaus expanded their incredible selection of craft brews into Hoboken."},
       {"_id": 2, "paragraph": "To help spread the word, we designed a campaign around one of Taphaus’ most unique selling points: their dog-friendly outdoor seating. The doggy brunch featured raffle prizes, gifts and play areas for the dogs and endless mimosas and french toast bites for the humans."},
@@ -63,7 +63,7 @@
     "image": "/images/bane/Case-Study_bane_v2_04.jpg",
     "menuColor": "#FFF",
     "title": "BANE",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "description": "Making a Monster",
     "detailDescription": [
       {"_id": 1, "paragraph": "When asked their #1 goal, Bane replied, “To scare the shit out of 50,000 people”. This October will be the culmination of months of marketing and development."},
       {"_id": 2, "paragraph": "Last year, over 30,000 visitors flocked to Bane to test their courage. To grow that figure, we advertised their escape rooms to increase brand awareness and relevance during the offseason. Their website received a well-needed facelift, and their social media was recharged to build anticipation for their Haunted House opening."}
@@ -91,7 +91,7 @@
     "header": "/images/madd/",
     "image": "/images/madd/Case-Study_Madd_08.jpg",
     "title": "MADD COFFEE",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "description": "Welcoming a New Coffee Brand",
     "detailDescription": [
       {"_id": 1, "paragraph": "A new brand with a new product that walked into Ockupy with just a name and business plan."}
     ],
@@ -116,7 +116,7 @@
     "image": "/images/aeon/Case-Study_AeonFunds_03.jpg",
     "menuColor": "#FFF",
     "title": "AEON",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit augue nec dolor egestas convallis. Morbi rutrum posuere enim, ut venenatis magna sagittis nec. Mauris interdum bibendum tellus, vel iaculis nulla aliquet vulputate.",
+    "description": "The Place for Your Finances",
     "detailDescription": [
       {"_id": 1, "paragraph": "Aeon wanted a website that reflected their leading-edge investments."}
     ],

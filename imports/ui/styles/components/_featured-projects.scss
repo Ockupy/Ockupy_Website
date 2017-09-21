@@ -2,9 +2,10 @@
 .featured-projects {
 
   .background {
-    font-size: 100px;
-    font-weight: 400;
-    color: purple;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 128px;
+    color: #452773;
     position: relative;
     z-index: 1;
     margin-bottom: 0.5em;
@@ -17,7 +18,7 @@
       position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
       top: 25%;
       left: 0;
-      right: 65%;
+      right: 60%;
       bottom: 0;
       width: 300px;
       z-index: -1;
@@ -28,32 +29,5 @@
 
   .projects-wrapper {
 
-    .project-left {
-      width: 500px;
-      height: 300px;
-      background: #eee;
-      margin-bottom: 2em;
-      background-size: cover;
-      box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
-      -webkit-clip-path: polygon(0% 0%, 0 100%, 58% 100%, 58% 60%, 100% 60%, 100% 100%, 100% 0%);
-      clip-path: polygon(0% 0%, 0 100%, 58% 100%, 58% 60%, 100% 60%, 100% 100%, 100% 0%);
-
-      .info {
-
-      }
-    }
-
-    .project-right {
-      width: 500px;
-      height: 300px;
-      background: #eee;
-      margin-bottom: 2em;
-      background-size: cover;
-      box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
-      position: relative;
-      left: 54%;
-      -webkit-clip-path: polygon(0 0, 0% 100%, 0 100%, 0 62%, 36% 62%, 36% 100%, 100% 100%, 100% 0);
-      clip-path: polygon(0 0, 0% 100%, 0 100%, 0 62%, 36% 62%, 36% 100%, 100% 100%, 100% 0);
-    }
   }
 }

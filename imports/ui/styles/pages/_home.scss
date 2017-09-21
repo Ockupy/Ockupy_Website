@@ -2,8 +2,8 @@
 .content-box {
   width: 100%;
   margin: 0 auto;
-  background: #F5F5F5;
-  height: 350px;
+  background-image: url('/images/header-box.jpg');
+  height: 500px;
   margin-bottom: 6em;
   display: flex;
   flex-direction: column;
@@ -12,9 +12,10 @@
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
   h1 {
-    font-size: 90px;
-    font-weight: 900;
+    font-weight: 600;
+    font-size: 128px;
     padding: 10px 0;
+    color: #561d9c;
   }
 }
 
@@ -31,34 +32,19 @@
     position: relative;
     left: 0;
     top: 0;
-    width: 350px;
+    width: 30%;
     height: inherit;
     background: #F5F5F5;
     margin-bottom: 1em;
     padding: 3%;
     box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
 
-    &::before {
-      border-top: 10px solid #eee;
-      content: "";
-      margin: 0 auto;
-      position: absolute;
-      top: 240%;
-      left: -88%;
-      bottom: 0;
-      width: 1200px;
-      height: 2px;
-      z-index: -2;
-      -webkit-transform: rotate(-43deg);
-      transform: rotate(-43deg);
-      -webkit-transform-origin: left;
-      transform-origin: left;
-    }
-
     p {
       text-align: left;
-      font-size: 24px;
       line-height: 130%;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 40px;
+      color: #504f4f;
     }
 
     .bar-1 {
@@ -67,7 +53,7 @@
       bottom: 75%;
       height: 100%;
       width: 2%;
-      background: #000;
+      background: grey;
     }
   }
 
@@ -75,33 +61,18 @@
     position: relative;
     left: 60%;
     bottom: 0;
-    width: 320px;
+    width: inherit;
     height: inherit;
     background: #F5F5F5;
     padding: 3%;
     box-shadow: 0 5px 6px rgba(0,0,0,0.12), 0 2px 5px rgba(0,0,0,0.24);
 
-    &::before {
-      border-top: 10px solid #eee;
-      content: "";
-      margin: 0 auto;
-      position: absolute;
-      top: 75%;
-      left: 50%;
-      bottom: 0;
-      width: 900px;
-      height: 2px;
-      z-index: -2;
-      -webkit-transform: rotate(-43deg);
-      transform: rotate(-43deg);
-      -webkit-transform-origin: left;
-      transform-origin: left;
-    }
-
     p {
       text-align: left;
-      font-size: 24px;
       line-height: 130%;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 40px;
+      color: #504f4f;
     }
 
     .bar-2 {
@@ -110,7 +81,7 @@
       bottom: 0;
       height: 100%;
       width: 2%;
-      background: #000;
+      background: grey;
     }
   }
 }
