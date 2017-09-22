@@ -13,19 +13,19 @@ class FeaturedProjects extends Component {
         <div className="projects-wrapper">
           <ProjectBlock
             link={'/projects/lavati'}
-            img={'/images/projects-lavati.jpg'}
+            img={'/images/home/featured-1.jpg'}
             title={'Lavati'}
             description={'Modern Fashion Shoes'}
           />
           <ProjectBlock
             link={'/projects/taphaus'}
-            img={'/images/taphaus/Case-Study_taphaus_02.jpg'}
+            img={'/images/home/featured-2.jpg'}
             title={'Taphaus'}
             description={'Restaurant Marketing'}
           />
           <ProjectBlock
             link={'/projects/bane'}
-            img={'/images/projects-bane.jpg'}
+            img={'/images/home/featured-3.jpg'}
             title={'Bane'}
             description={'Making A Monster'}
           />
