@@ -4,18 +4,31 @@
   margin: 0 auto;
   background-image: url('/images/header-box.jpg');
   height: 500px;
-  margin-bottom: 6em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 6em;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
-  h1 {
-    font-weight: 600;
-    font-size: 128px;
-    padding: 10px 0;
-    color: #561d9c;
+  .mask {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/videos/ockupy-video.gif') center center no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    h1 {
+      font-weight: 600;
+      font-size: 128px;
+      padding: 10px 0;
+      color: #561d9c;
+    }
   }
 }
 
@@ -68,7 +81,7 @@
         text-align: left;
         line-height: 1.4em;
         font-family: 'Noto Sans', sans-serif;
-        font-size: 40px;
+        font-size: 35px;
         color: #504f4f;
       }
 
@@ -102,7 +115,7 @@
         text-align: left;
         line-height: 1.4em;
         font-family: 'Noto Sans', sans-serif;
-        font-size: 40px;
+        font-size: 35px;
         color: #504f4f;
       }
 

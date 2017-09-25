@@ -20,8 +20,10 @@ class About extends Component {
         />
         <div className="page-content-wrapper">
           <div className="content-box">
-            <h1>we do</h1>
-            <h1>this</h1>
+            <div className="mask">
+              <h1>we do</h1>
+              <h1>this</h1>
+            </div>
           </div>
           <div className="about-info">
             <div className="block-wrapper">

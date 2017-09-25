@@ -30,7 +30,7 @@ class ContactForm extends Component {
           <div className="form-group">
             <select>
               <option ref="" disabled selected>What is Your Estimated Budget?</option>
-              <option ref="">$0 - $2000</option>
+              <option ref="">$0 - $2,000</option>
               <option ref="">$2,000 - $5,000</option>
               <option ref="">$5,000 - $10,000</option>
               <option ref=""> > $10,000</option>

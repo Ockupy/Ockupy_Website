@@ -25,8 +25,10 @@ class Home extends Component {
         />
         <div className="page-content-wrapper">
           <div className="content-box">
-            <h1>we create</h1>
-            <h1>things</h1>
+            <div className="mask">
+              <h1>we create</h1>
+              <h1>things</h1>
+            </div>
           </div>
           <div className="home-info">
             <div className="block-wrapper">

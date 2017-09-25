@@ -1,9 +1,5 @@
 
 .services {
-  background-image: url(images/we-can-do-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 
   #services-title {
     width: 100%;
@@ -33,6 +29,10 @@
   .wrapper {
     display: flex;
     flex-direction: row;
+    background-image: url(images/we-can-do-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 100%;
 
     .list {
       width: 50%;
