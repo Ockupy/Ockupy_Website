@@ -34,10 +34,11 @@
     .line {
       width: 5px;
       background: #eee;
+      margin: 0 auto !important;
     }
 
     .services {
-      margin-right: 3em;
+      width: 40%;
 
       h3 {
         margin-bottom: 0.5em;
@@ -69,6 +70,33 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 3em;
+}
+
+.project-stats {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+
+  h2 {
+    margin-bottom: 1.5em;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      line-height: 1.6em;
+      text-align: center;
+    }
+  }
 }
 
 
@@ -92,5 +120,21 @@
       height: 100vh;
       object-fit: cover;
     }
+  }
+}
+
+.project-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin: 3em 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }

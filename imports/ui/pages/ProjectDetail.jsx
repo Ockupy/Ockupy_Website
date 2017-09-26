@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { FullImage } from '../components/Projects/Full-Image';
+import { ProjectVideo } from '../components/Projects/ProjectVideo';
 import Slider from '../components/Projects/Slider';
 import axios from 'axios';
 
@@ -58,8 +59,31 @@ class ProjectDetail extends Component {
         <FullImage
           image={data.image}
         />
+        <div className="project-stats">
+          <h2>Results</h2>
+          <div className="wrapper">
+            {data.results.map(stat => {
+              return <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'flex-start',
+                alignItems: 'center',
+                maxWidth: '300px'
+              }} key={stat._id}>
+                <h1>{stat.value}</h1>
+                <p>{stat.description}</p>
+              </div>
+            })}
+          </div>
+        </div>
+        <FullImage
+          image={data.imageTwo}
+        />
         <Slider
           slides={data.sliderImages}
+        />
+        <ProjectVideo
+          source={data.video}
         />
       </div>
     );

@@ -2,10 +2,10 @@
   {
     "_id": 1,
     "link": "lavati",
-    "logo": "/images/logo-black.png",
     "projectImg": "/images/projects-lavati.jpg",
-    "header": "/images/lavati/Case-Study_Lavati_v2_06.jpg",
-    "image": "/images/lavati/Case-Study_Lavati_v2_09.jpg",
+    "header": "/images/lavati/Case-Study_Lavati_v2_01.jpg",
+    "image": "/images/lavati/Case-Study_Lavati_v2_03.jpg",
+    "imageTwo": "/images/lavati/Case-Study_Lavati_v2_06.jpg",
     "title": "LAVATI",
     "description": "Modern Fashion Shoes",
     "detailDescription": [
@@ -21,15 +21,20 @@
       {"_id": 6, "service": "Email Automation and Marketing"},
       {"_id": 7, "service": "Adwords/Search Engine Marketing"}
     ],
+    "results": [
+      {"_id": 1, "stat": "Sessions", "value": "+ 450.09%", "description": "Increase users to website since 2016"},
+      {"_id": 2, "stat": "Bounce Rate", "value": "- 21.44%", "description": "Bounce Rate"},
+      {"_id": 3, "stat": "Revenue", "value": "+ 313%", "description": "Increased Revenue in sales from November 2016 to Jan 2017"}
+    ],
     "sliderImages": [
-      {"_id": 1, "src": "/images/lavati/Case-Study_Lavati_v2_03.jpg"},
-      {"_id": 2, "src": "/images/lavati/Case-Study_Lavati_v2_01.jpg"}
-    ]
+      {"_id": 1, "src": "/images/lavati/Case-Study_Lavati_v2_09.jpg"},
+      {"_id": 2, "src": ""}
+    ],
+    "video": "https://drive.google.com/a/ockupy.com/file/d/0B9Fs5tOufgOoQU1KZmx4V29LaXM/preview?"
   },
   {
     "_id": 2,
     "link": "taphaus",
-    "logo": "/images/ockupy-logo.png",
     "projectImg": "/images/projects-taphaus.jpg",
     "header": "/images/taphaus/Case-Study_taphaus_02.jpg",
     "image": "/images/taphaus/Case-Study_taphaus_06.jpg",
@@ -49,6 +54,10 @@
       {"_id": 5, "service": "Display Ad Marketing"},
       {"_id": 6, "service": "Email Automation and Marketing"}
     ],
+    "results": [
+      {"_id": 1, "stat": "Social Media Following", "value": "+ 118.17%", "description": ""},
+      {"_id": 2, "stat": "Search Impressions", "value": "+ 351.66%", "description": ""}
+    ],
     "sliderImages": [
       {"_id": 1, "src": "/images/taphaus/Case-Study_taphaus_10.jpg"},
       {"_id": 2, "src": "/images/taphaus/Case-Study_taphaus_12.jpg"}
@@ -57,7 +66,6 @@
   {
     "_id": 3,
     "link": "bane",
-    "logo": "/images/ockupy-logo.png",
     "projectImg": "/images/projects-bane.jpg",
     "header": "/images/bane/Case-Study_bane_v2_01.jpg",
     "image": "/images/bane/Case-Study_bane_v2_04.jpg",
@@ -77,6 +85,12 @@
       {"_id": 6, "service": "PR Management"},
       {"_id": 7, "service": "Email Automation and Marketing"}
     ],
+    "results": [
+      {"_id": 1, "stat": "Revenue", "value": "+ 82.26%", "description": ""},
+      {"_id": 2, "stat": "ROI", "value": "+ 296.62%", "description": ""},
+      {"_id": 3, "stat": "Social Media Following", "value": "+ 40.24%", "description": ""},
+      {"_id": 4, "stat": "Search Impressions", "value": "+ 124.99%", "description": ""}
+    ],
     "sliderImages": [
       {"_id": 1, "src": "/images/bane/Case-Study_bane_v2_02.jpg"},
       {"_id": 2, "src": "/images/bane/Case-Study_bane_v2_06.jpg"},
@@ -86,7 +100,6 @@
   {
     "_id": 4,
     "link": "madd",
-    "logo": "/images/logo-black.png",
     "projectImg": "/images/projects-madd-coffee.jpg",
     "header": "/images/madd/",
     "image": "/images/madd/Case-Study_Madd_08.jpg",
@@ -101,6 +114,7 @@
       {"_id": 3, "service": "Custom Shopify Template Development"},
       {"_id": 4, "service": "(later) Packaging Design"}
     ],
+    "results": [],
     "sliderImages": [
       {"_id": 1, "src": "/images/madd/"},
       {"_id": 2, "src": "/images/madd/"},
@@ -110,7 +124,6 @@
   {
     "_id": 5,
     "link": "aeon",
-    "logo": "/images/logo-black.png",
     "projectImg": "/images/projects-aeon.jpg",
     "header": "/images/aeon/Case-Study_AeonFunds_01.jpg",
     "image": "/images/aeon/Case-Study_AeonFunds_03.jpg",
@@ -123,6 +136,7 @@
     "detailServices": [
       {"_id": 1, "service": "Custom Wordpress Template Development"}
     ],
+    "results": [],
     "sliderImages": [
       {"_id": 1, "src": ""},
       {"_id": 2, "src": ""}
