@@ -2,6 +2,25 @@ import React, { Component } from 'react';
 
 class ContactForm extends Component {
 
+  constructor() {
+    super();
+    this.state = {
+      message: {
+        name: '',
+        email: '',
+        message: ''
+      }
+    }
+  }
+
+  submitForm() {
+    this.state = { message: {
+      name: this.refs.f_name.value,
+      email: this.refs.email.value,
+      message: this.refs.message.value
+    }};
+  }
+
   componentDidMount() {
     //jquery
   }

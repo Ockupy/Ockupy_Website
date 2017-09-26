@@ -31,25 +31,28 @@ class ProjectDetail extends Component {
     return (
       <div className="page-content-wrapper">
         <div className="full-header"
-            style=
-              {{ backgroundImage: `url('${data.header}')` }}
-            >
-          <div className="popout">
-            <h2 className="title">{data.title}</h2>
-            <div className="info">
+          style=
+            {{ backgroundImage: `url('${data.header}')` }}
+          >
+        </div>
+        <div className="project-detail">
+          <h2 className="title">{data.title}</h2>
+          <div className="info">
+            <span>
               {data.detailDescription.map((p) => {
                 return <p key={p._id}>{p.paragraph}</p>
               })}
-              {data.detailServices ?
-                <div>
-                  <h3>Services:</h3>
-                  <ul>
-                    {data.detailServices.map((li) => {
-                      return <li key={li._id}>{li.service}</li>
-                    })}
-                  </ul>
-                </div> : null}
-            </div>
+            </span>
+            <div className="line"></div>
+            {data.detailServices ?
+              <div className="services">
+                <h3>Services:</h3>
+                <ul>
+                  {data.detailServices.map((li) => {
+                    return <li key={li._id}>{li.service}</li>
+                  })}
+                </ul>
+              </div> : null}
           </div>
         </div>
         <FullImage
