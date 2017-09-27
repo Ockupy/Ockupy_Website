@@ -53,6 +53,7 @@ class ProjectDetail extends Component {
                     return <li key={li._id}>{li.service}</li>
                   })}
                 </ul>
+                <span><b>WEBSITE:</b>&nbsp;&nbsp;&nbsp;{data.website}</span>
               </div> : null}
           </div>
         </div>
@@ -60,7 +61,7 @@ class ProjectDetail extends Component {
           image={data.image}
         />
         <div className="project-stats">
-          <h2>Results</h2>
+          <h2>Results:</h2>
           <div className="wrapper">
             {data.results.map(stat => {
               return <div style={{
@@ -84,6 +85,9 @@ class ProjectDetail extends Component {
         />
         <ProjectVideo
           source={data.video}
+        />
+        <FullImage
+          image={data.imageLast}
         />
       </div>
     );
