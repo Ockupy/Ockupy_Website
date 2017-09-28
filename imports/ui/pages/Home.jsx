@@ -17,6 +17,7 @@ class Home extends Component {
     });
 
     $(window).scroll(function () {
+
       $('.hideme').each(function (i) {
         var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 100;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -24,11 +25,13 @@ class Home extends Component {
         if( bottom_of_window > bottom_of_object ){
           $(this).css({
             opacity:1,
-            transition:'all .6s ease-in-out',
+            filter: 'alpha(opacity=100)',
+            transition:'all .8s ease',
+            transform: 'translateY(-100px)',
             top:'0em'
           });
         }
-      });
+      });// end hideme
     });
   }
 

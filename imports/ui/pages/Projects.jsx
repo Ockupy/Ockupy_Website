@@ -13,13 +13,13 @@ class Projects extends Component {
 
     $(window).scroll(function () {
       $('.hideme').each(function (i) {
-        var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 300;
+        var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 200;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
 
         if( bottom_of_window > bottom_of_object ){
           $(this).css({
             opacity:1,
-            transition:'all .7s ease-in-out',
+            transition:'all .8s ease-in-out',
             top:'0em'
           });
         }

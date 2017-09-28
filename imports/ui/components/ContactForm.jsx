@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Meteor } from 'meteor/meteor';
+import { Bert } from 'meteor/themeteorchef:bert';
 
 class ContactForm extends Component {
 
@@ -7,8 +9,8 @@ class ContactForm extends Component {
     this.state = {
       message: {
         name: '',
-        company: '',
         email: '',
+        company: '',
         message: ''
       }
     };
@@ -17,8 +19,8 @@ class ContactForm extends Component {
   submitForm() {
     this.state = { message: {
       name: this.refs.name.value,
-      company: this.refs.company.value,
       email: this.refs.email.value,
+      company: this.refs.company.value,
       message: this.refs.message.value
     }};
 
@@ -28,35 +30,31 @@ class ContactForm extends Component {
       let email = this.state.message.email;
       let message = this.state.message.message;
 
-        if (name === '') {
-          Bert.alert('Enter a valid name please!', 'danger');
-        } else if(email === ''){
-          Bert.alert('Enter a valid email please!', 'danger');
-        } else if(message === ''){
-          Bert.alert('Enter a valid message please!', 'danger');
-        } else if(error){
-          Bert.alert(error.reason, 'danger');
-        } else {
-          //this.contactForm.reset();
-          Bert.alert('Message sent!', 'success');
-          // $('.oc-form').css({
-          //   'visibility':'hidden',
-          //   'opacity':'0',
-          //   'transition':'all .3s ease-in-out'
-          // });
-          this.setState({
-            message: {
-              name: '',
-              company: '',
-              email: '',
-              message: ''
-            }
-          });
-          this.refs.name.value = '';
-          this.refs.email.value = '';
-          this.refs.company.value = '';
-          this.refs.message.value = '';
-        }
+      if (name === '') {
+        Bert.alert('Enter a valid name please!', 'danger');
+      } else if(email === ''){
+        Bert.alert('Enter a valid email please!', 'danger');
+      } else if(message === ''){
+        Bert.alert('Enter a valid message please!', 'danger');
+      } else if(error){
+        Bert.alert(error.reason, 'danger');
+      } else {
+        //this.contactForm.reset();
+        Bert.alert('Message sent!', 'success');
+
+        this.setState({
+          message: {
+            name: '',
+            company: '',
+            email: '',
+            message: ''
+          }
+        });
+        this.refs.name.value = '';
+        this.refs.email.value = '';
+        this.refs.company.value = '';
+        this.refs.message.value = '';
+      }
     });
   }
 
@@ -92,10 +90,10 @@ class ContactForm extends Component {
           <div className="form-group">
             <select>
               <option ref="" disabled selected>What is Your Estimated Budget?</option>
-              <option ref="">$0 - $2,000</option>
-              <option ref="">$2,000 - $5,000</option>
-              <option ref="">$5,000 - $10,000</option>
-              <option ref=""> > $10,000</option>
+              <option ref="1">$0 - $2,000</option>
+              <option ref="2">$2,000 - $5,000</option>
+              <option ref="3">$5,000 - $10,000</option>
+              <option ref="4"> > $10,000</option>
             </select>
           </div>
           <div className="form-group">
@@ -103,7 +101,7 @@ class ContactForm extends Component {
             <label className="control-label" for="textarea">Tell us a bit more about your needs:</label><i className="bar"></i>
           </div>
           <div className="form-group">
-            <button>Submit</button>
+            <button onClick={this.submitForm.bind(this)}>Submit</button>
           </div>
         </form>
       </div>

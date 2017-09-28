@@ -44,7 +44,6 @@
     "image": "/images/taphaus/Case-Study_taphaus_06.jpg",
     "imageTwo": "/images/taphaus/",
     "imageLast": "/images/taphaus/Case-Study_taphaus_10.jpg",
-    "menuColor": "#FFF",
     "title": "TAPHAUS",
     "description": "Restaurant Marketing",
     "detailDescription": [
@@ -76,7 +75,8 @@
     "projectImg": "/images/project-images/Projects_10.png",
     "header": "/images/bane/Case-Study_bane_v2_01.jpg",
     "image": "/images/bane/Case-Study_bane_v2_04.jpg",
-    "menuColor": "#FFF",
+    "imageTwo": "",
+    "imageLast": "/images/bane/Case-Study_bane_v2_06.jpg",
     "title": "BANE",
     "description": "Making a Monster",
     "detailDescription": [
@@ -113,6 +113,8 @@
     "projectImg": "/images/project-images/Projects_14.png",
     "header": "/images/madd/",
     "image": "/images/madd/Case-Study_Madd_08.jpg",
+    "imageTwo": "",
+    "imageLast": "/images/madd/Case-Study_Madd_13.jpg",
     "title": "MADD COFFEE",
     "description": "Welcoming a New Coffee Brand",
     "detailDescription": [
@@ -137,9 +139,10 @@
     "_id": 5,
     "link": "aeon",
     "projectImg": "/images/project-images/Projects_17.png",
-    "header": "/images/aeon/Case-Study_AeonFunds_01.jpg",
-    "image": "/images/aeon/Case-Study_AeonFunds_03.jpg",
-    "menuColor": "#FFF",
+    "header": "/images/aeon/Case-Study_AeonFunds_03.jpg",
+    "image": "",
+    "imageTwo": "",
+    "imageLast": "/images/aeon/Case-Study_AeonFunds_01.jpg",
     "title": "AEON",
     "description": "The Place for Your Finances",
     "detailDescription": [
@@ -150,8 +153,8 @@
     ],
     "results": [],
     "sliderImages": [
-      {"_id": 1, "src": ""},
-      {"_id": 2, "src": ""}
+      {"_id": 1, "src": "/images/aeon/"},
+      {"_id": 2, "src": "/images/aeon/"}
     ],
     "video": "",
     "website": "www.aeon.fund"
