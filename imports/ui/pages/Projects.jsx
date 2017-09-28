@@ -8,18 +8,23 @@ class Projects extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
-    var lastScrollTop = 0;
-    document.addEventListener("scroll", function(){
-      var st = window.pageYOffset || document.documentElement.scrollTop;
-      if (st > lastScrollTop){
-        // downscroll code
-        // console.log('down');
-      } else {
-        // upscroll code
-        // console.log('up');
-      }
-      lastScrollTop = st;
-    }, false);
+
+    $('.project-container').filter(':nth-child(1), :nth-child(2)').removeClass('hideme');
+
+    $(window).scroll(function () {
+      $('.hideme').each(function (i) {
+        var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 300;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if( bottom_of_window > bottom_of_object ){
+          $(this).css({
+            opacity:1,
+            transition:'all .7s ease-in-out',
+            top:'0em'
+          });
+        }
+      });
+    });
   }
 
   projects() {
@@ -47,7 +52,9 @@ class Projects extends Component {
           navLogo='/images/logo-black.png'
         />
         <div className="page-content-wrapper">
-          {this.renderProjects()}
+          <div className="project-page">
+            {this.renderProjects()}
+          </div>
         </div>
         <Footer />
       </div>

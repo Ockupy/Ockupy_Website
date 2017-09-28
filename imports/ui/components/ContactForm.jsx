@@ -3,22 +3,61 @@ import React, { Component } from 'react';
 class ContactForm extends Component {
 
   constructor() {
-    super();
+    super()
     this.state = {
       message: {
         name: '',
+        company: '',
         email: '',
         message: ''
       }
-    }
+    };
   }
 
   submitForm() {
     this.state = { message: {
-      name: this.refs.f_name.value,
+      name: this.refs.name.value,
+      company: this.refs.company.value,
       email: this.refs.email.value,
       message: this.refs.message.value
     }};
+
+    Meteor.call('sendEmail', this.state.message, (error) => {
+      let name = this.state.message.name;
+      let company = this.state.message.company;
+      let email = this.state.message.email;
+      let message = this.state.message.message;
+
+        if (name === '') {
+          Bert.alert('Enter a valid name please!', 'danger');
+        } else if(email === ''){
+          Bert.alert('Enter a valid email please!', 'danger');
+        } else if(message === ''){
+          Bert.alert('Enter a valid message please!', 'danger');
+        } else if(error){
+          Bert.alert(error.reason, 'danger');
+        } else {
+          //this.contactForm.reset();
+          Bert.alert('Message sent!', 'success');
+          // $('.oc-form').css({
+          //   'visibility':'hidden',
+          //   'opacity':'0',
+          //   'transition':'all .3s ease-in-out'
+          // });
+          this.setState({
+            message: {
+              name: '',
+              company: '',
+              email: '',
+              message: ''
+            }
+          });
+          this.refs.name.value = '';
+          this.refs.email.value = '';
+          this.refs.company.value = '';
+          this.refs.message.value = '';
+        }
+    });
   }
 
   componentDidMount() {
@@ -31,11 +70,15 @@ class ContactForm extends Component {
       <div id="contact-form">
         <form>
           <div className="form-group">
-            <input type="text" required="required" />
+            <input ref="name" type="text" required="required" />
             <label className="control-label" for="input">Name*</label><i className="bar"></i>
           </div>
           <div className="form-group">
-            <input type="text" required="required" />
+            <input ref="email" type="text" required="required" />
+            <label className="control-label" for="input">Email</label><i className="bar"></i>
+          </div>
+          <div className="form-group">
+            <input ref="company" type="text" required="required" />
             <label className="control-label" for="input">Company</label><i className="bar"></i>
           </div>
           <div className="form-group">
@@ -56,7 +99,7 @@ class ContactForm extends Component {
             </select>
           </div>
           <div className="form-group">
-            <textarea required="required"></textarea>
+            <textarea ref="message" required="required"></textarea>
             <label className="control-label" for="textarea">Tell us a bit more about your needs:</label><i className="bar"></i>
           </div>
           <div className="form-group">

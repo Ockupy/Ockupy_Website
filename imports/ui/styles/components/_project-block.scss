@@ -19,30 +19,30 @@
 
     .project-info {
       position: absolute;
-      bottom: -2em;
-      right: 26em;
+      bottom: -4em;
+      right: 21em;
     }
   }
 
   .image {
     height: 350px;
     width: 70%;
-    background: #eee;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
     }
   }
 
   .project-info {
     position: absolute;
-    bottom: -3em;
-    right: 13em;
-    min-width: 220px;
-    background: #FFF;
+    bottom: -4em;
+    right: 8em;
+    transform-origin: left;
+    width: 350px;
+    height: inherit;
+    background: none;
     padding: 25px;
     margin-bottom: 1.5em;
     display: inline-flex;

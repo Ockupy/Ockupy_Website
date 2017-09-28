@@ -17,7 +17,9 @@ class Contact extends Component {
         />
         <div className="page-content-wrapper">
           <div className="contact-box">
-            <h1>contact us</h1>
+            <div className="mask">
+              <h1>contact us</h1>
+            </div>
           </div>
           <ContactForm />
         </div>

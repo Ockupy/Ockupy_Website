@@ -2,7 +2,7 @@
   {
     "_id": 1,
     "link": "lavati",
-    "projectImg": "/images/projects-lavati.jpg",
+    "projectImg": "/images/project-images/Projects_03.png",
     "header": "/images/lavati/Case-Study_Lavati_v2_01.jpg",
     "image": "/images/lavati/Case-Study_Lavati_v2_03.jpg",
     "imageTwo": "/images/lavati/Case-Study_Lavati_v2_06.jpg",
@@ -28,8 +28,10 @@
       {"_id": 3, "stat": "Revenue", "value": "+ 313%", "description": "Increased Revenue in sales from November 2016 to Jan 2017"}
     ],
     "sliderImages": [
-      {"_id": 1, "src": ""},
-      {"_id": 2, "src": ""}
+      {"_id": 1, "src": "/images/lavati/look6.png"},
+      {"_id": 2, "src": "/images/lavati/2.png"},
+      {"_id": 3, "src": "/images/lavati/look4.png"},
+      {"_id": 4, "src": "/images/lavati/look7.png"}
     ],
     "video": "https://drive.google.com/a/ockupy.com/file/d/0B9Fs5tOufgOoQU1KZmx4V29LaXM/preview?",
     "website": "www.lavati.com"
@@ -37,9 +39,11 @@
   {
     "_id": 2,
     "link": "taphaus",
-    "projectImg": "/images/projects-taphaus.jpg",
+    "projectImg": "/images/project-images/Projects_07.png",
     "header": "/images/taphaus/Case-Study_taphaus_02.jpg",
     "image": "/images/taphaus/Case-Study_taphaus_06.jpg",
+    "imageTwo": "/images/taphaus/",
+    "imageLast": "/images/taphaus/Case-Study_taphaus_10.jpg",
     "menuColor": "#FFF",
     "title": "TAPHAUS",
     "description": "Restaurant Marketing",
@@ -61,8 +65,7 @@
       {"_id": 2, "stat": "Search Impressions", "value": "+ 351.66%", "description": ""}
     ],
     "sliderImages": [
-      {"_id": 1, "src": "/images/taphaus/Case-Study_taphaus_10.jpg"},
-      {"_id": 2, "src": "/images/taphaus/Case-Study_taphaus_12.jpg"}
+      {"_id": 1, "src": "/images/taphaus/Case-Study_taphaus_12.jpg"}
     ],
     "video": "",
     "website": "www.taphausjc.com"
@@ -70,7 +73,7 @@
   {
     "_id": 3,
     "link": "bane",
-    "projectImg": "/images/projects-bane.jpg",
+    "projectImg": "/images/project-images/Projects_10.png",
     "header": "/images/bane/Case-Study_bane_v2_01.jpg",
     "image": "/images/bane/Case-Study_bane_v2_04.jpg",
     "menuColor": "#FFF",
@@ -96,9 +99,10 @@
       {"_id": 4, "stat": "Search Impressions", "value": "+ 124.99%", "description": ""}
     ],
     "sliderImages": [
-      {"_id": 1, "src": "/images/bane/Case-Study_bane_v2_02.jpg"},
-      {"_id": 2, "src": "/images/bane/Case-Study_bane_v2_06.jpg"},
-      {"_id": 3, "src": "/images/bane/Case-Study_bane_v2_07.jpg"}
+      {"_id": 1, "src": "/images/bane/580C6882.jpg"},
+      {"_id": 2, "src": "/images/bane/580C7067.jpg"},
+      {"_id": 3, "src": "/images/bane/580C7207.jpg"},
+      {"_id": 4, "src": "/images/bane/Bane-Apocalypse-1.jpg"}
     ],
     "video": "https://drive.google.com/a/ockupy.com/file/d/0B9Fs5tOufgOoWTFiMFBKOHZGalE/preview?",
     "website": "www.banehauntedhouse.com"
@@ -106,7 +110,7 @@
   {
     "_id": 4,
     "link": "madd",
-    "projectImg": "/images/projects-madd-coffee.jpg",
+    "projectImg": "/images/project-images/Projects_14.png",
     "header": "/images/madd/",
     "image": "/images/madd/Case-Study_Madd_08.jpg",
     "title": "MADD COFFEE",
@@ -132,7 +136,7 @@
   {
     "_id": 5,
     "link": "aeon",
-    "projectImg": "/images/projects-aeon.jpg",
+    "projectImg": "/images/project-images/Projects_17.png",
     "header": "/images/aeon/Case-Study_AeonFunds_01.jpg",
     "image": "/images/aeon/Case-Study_AeonFunds_03.jpg",
     "menuColor": "#FFF",

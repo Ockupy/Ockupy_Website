@@ -15,6 +15,21 @@ class Home extends Component {
         scrollTop: 0,
       }, 1000);
     });
+
+    $(window).scroll(function () {
+      $('.hideme').each(function (i) {
+        var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 100;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if( bottom_of_window > bottom_of_object ){
+          $(this).css({
+            opacity:1,
+            transition:'all .6s ease-in-out',
+            top:'0em'
+          });
+        }
+      });
+    });
   }
 
   render() {

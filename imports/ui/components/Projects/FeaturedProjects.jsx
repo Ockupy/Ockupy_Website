@@ -9,23 +9,23 @@ class FeaturedProjects extends Component {
   render() {
     return (
       <div className="featured-projects">
-        <h1 className="background">featured</h1>
+        <h1 className="background hideme">featured</h1>
         <div className="projects-wrapper">
           <ProjectBlock
             link={'/projects/lavati'}
-            img={'/images/home/featured-1.jpg'}
+            img={'/images/home/Homepage_v2_07 (1).png'}
             title={'Lavati'}
             description={'Modern Fashion Shoes'}
           />
           <ProjectBlock
             link={'/projects/taphaus'}
-            img={'/images/home/featured-2.jpg'}
+            img={'/images/home/Homepage_v2_11.png'}
             title={'Taphaus'}
             description={'Restaurant Marketing'}
           />
           <ProjectBlock
             link={'/projects/bane'}
-            img={'/images/home/featured-3.jpg'}
+            img={'/images/home/Homepage_v2_15.png'}
             title={'Bane'}
             description={'Making A Monster'}
           />

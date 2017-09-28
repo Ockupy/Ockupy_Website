@@ -2,7 +2,7 @@ import React from 'react';
 
 export const LetsWork = () => {
   return (
-    <div className="lets-work">
+    <div className="lets-work hideme">
       <div className="wrapper">
         <div className="content">
           <h1>lets work</h1>

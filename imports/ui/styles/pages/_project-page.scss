@@ -1,0 +1,23 @@
+.project-page {
+
+  .project-container {
+
+    .project-info {
+      position: absolute;
+      width: 400px;
+      max-height: 300px !important;
+      bottom: -3.5em !important;
+      right: -2em !important;
+    }
+
+    &:nth-child(even) {
+      .project-info {
+        position: absolute;
+        width: 400px;
+        max-height: 300px !important;
+        bottom: -7em !important;
+        right: -2em !important;
+      }
+    }
+  }
+}

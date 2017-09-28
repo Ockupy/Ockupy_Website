@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ProjectBlock = (props) => {
   return (
-    <div className="project-container">
+    <div className="project-container hideme">
         <div className="image">
           <img src={props.img} />
         </div>
