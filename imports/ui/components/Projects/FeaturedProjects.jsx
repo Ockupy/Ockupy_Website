@@ -9,7 +9,7 @@ class FeaturedProjects extends Component {
   render() {
     return (
       <div className="featured-projects">
-        <h1 className="background hideme">featured</h1>
+        <h1 className="background hideme bg-animate">featured</h1>
         <div className="projects-wrapper">
           <ProjectBlock
             link={'/projects/lavati'}

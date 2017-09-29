@@ -60,8 +60,9 @@
       {"_id": 6, "service": "Email Automation and Marketing"}
     ],
     "results": [
-      {"_id": 1, "stat": "Social Media Following", "value": "+ 118.17%", "description": ""},
-      {"_id": 2, "stat": "Search Impressions", "value": "+ 351.66%", "description": ""}
+      {"_id": 1, "stat": "Social Media Followers", "value": "+ 118.17%", "description": "Increased Social Media Followers"},
+      {"_id": 2, "stat": "Search Impressions", "value": "+ 351.66%", "description": "Increased Search Impressions"},
+      {"_id": 3, "stat": "Traffic", "value": "+ 92.29%", "description": "Increased Website Traffic"}
     ],
     "sliderImages": [
       {"_id": 1, "src": "/images/taphaus/Case-Study_taphaus_12.jpg"}
@@ -93,10 +94,9 @@
       {"_id": 7, "service": "Email Automation and Marketing"}
     ],
     "results": [
-      {"_id": 1, "stat": "Revenue", "value": "+ 82.26%", "description": ""},
-      {"_id": 2, "stat": "ROI", "value": "+ 296.62%", "description": ""},
-      {"_id": 3, "stat": "Social Media Following", "value": "+ 40.24%", "description": ""},
-      {"_id": 4, "stat": "Search Impressions", "value": "+ 124.99%", "description": ""}
+      {"_id": 1, "stat": "Social Media Followers", "value": "+ 40.24%", "description": "Increased Social Media followers"},
+      {"_id": 2, "stat": "ROI", "value": "+ 296.62%", "description": "Boosted Reaturn on Investment"},
+      {"_id": 3, "stat": "Revenue", "value": "+ 82.26%", "description": "Increased Revenue"}
     ],
     "sliderImages": [
       {"_id": 1, "src": "/images/bane/580C6882.jpg"},

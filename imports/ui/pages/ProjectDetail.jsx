@@ -73,7 +73,7 @@ class ProjectDetail extends Component {
                 alignItems: 'center',
                 maxWidth: '300px'
               }} key={stat._id}>
-                <h1>{stat.value}</h1>
+                <h1 className="bg-animate">{stat.value}</h1>
                 <p>{stat.description}</p>
               </div>
             })}

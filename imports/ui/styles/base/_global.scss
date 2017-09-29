@@ -14,3 +14,15 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+.bg-animate {
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background: linear-gradient(179deg, #2b32c6 , #6f2ed0 , #a532b9 , #d02e78 , #c63423 , #a55b1e );
+  background-size: 1200% 1200%;
+
+  -webkit-animation: AnimationName 9s ease infinite;
+  -moz-animation: AnimationName 9s ease infinite;
+  animation: AnimationName 9s ease infinite;
+}

@@ -35,7 +35,7 @@ class About extends Component {
         />
         <div className="page-content-wrapper">
           <div className="content-box">
-            <div className="mask">
+            <div className="mask bg-animate">
               <h1>we do</h1>
               <h1>this</h1>
             </div>
@@ -43,13 +43,13 @@ class About extends Component {
           <div className="about-info">
             <div className="block-wrapper hideme">
               <div className="block ">
-                <p>Putting together a marketing campaign or building a new website requires many different inputs. These projects require strategy, design, development, and media. Trying to work with multiple companies and freelancers can complicate the process and result in a poor product.</p>
+                <p>We attain all the resources to form a successful marketing campaign as well as build unique websites. We provide a wide range of tools to help brands develop and curate their message, market their products and services, and scale their business - all in one place.</p>
                 <span></span>
               </div>
             </div>
             <div className="block-wrapper hideme">
               <div className="block-2">
-                <p>Everything we create, we do in house. Brand Development, photography, design, social media marketing, web development - every digital service is produce in our studio where each team can actively collaborate on projects to produce the best possible website, app, or marketing.</p>
+                <p>All our activities and everything we create are done in-house: brand development, videography and photography, graphic design, social media marketing, and web development. Having all the digital services produced in our studio office allows our team to actively collaborate on projects to produce the best marketing content, websites, and apps for our clients.</p>
                 <span></span>
               </div>
             </div>

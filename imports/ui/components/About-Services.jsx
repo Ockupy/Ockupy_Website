@@ -3,7 +3,7 @@ import React from 'react';
 export const AboutServices = () => {
   return (
     <div className="services hideme">
-      <h1 id="services-title">we can do</h1>
+      <h1 className="bg-animate" id="services-title">we can do</h1>
       <div className="wrapper">
         <div className="list">
           <ul>
