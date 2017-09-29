@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { LetsWork } from '../components/LetsWork';
+import { LastImage } from '../components/Projects/Last-Image';
 import { FullImage } from '../components/Projects/Full-Image';
 import { ProjectVideo } from '../components/Projects/ProjectVideo';
 import Slider from '../components/Projects/Slider';
@@ -96,7 +97,7 @@ class ProjectDetail extends Component {
           />
         : null}
         {data.imageLast ?
-          <FullImage
+          <LastImage
             image={data.imageLast}
           />
         : null}
