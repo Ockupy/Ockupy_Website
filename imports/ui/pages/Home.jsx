@@ -27,7 +27,7 @@ class Home extends Component {
             opacity:1,
             filter: 'alpha(opacity=100)',
             transition:'all .8s ease',
-            transform: 'translateY(-100px)',
+            // transform: 'translateY(-100px)',
             top:'0em'
           });
         }

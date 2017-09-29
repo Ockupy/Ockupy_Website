@@ -57,9 +57,11 @@ class ProjectDetail extends Component {
               </div> : null}
           </div>
         </div>
-        <FullImage
-          image={data.image}
-        />
+        {data.image ?
+          <FullImage
+            image={data.image}
+          />
+        : null}
         <div className="project-stats">
           <h2>Results:</h2>
           <div className="wrapper">
@@ -77,18 +79,26 @@ class ProjectDetail extends Component {
             })}
           </div>
         </div>
-        <FullImage
-          image={data.imageTwo}
-        />
-        <Slider
-          slides={data.sliderImages}
-        />
-        <ProjectVideo
-          source={data.video}
-        />
-        <FullImage
-          image={data.imageLast}
-        />
+        {data.imageTwo ?
+          <FullImage
+            image={data.imageTwo}
+          />
+        : null}
+        {data.sliderImages ?
+          <Slider
+            slides={data.sliderImages}
+          />
+        : null}
+        {data.video ?
+          <ProjectVideo
+            source={data.video}
+          />
+        : null}
+        {data.imageLast ?
+          <FullImage
+            image={data.imageLast}
+          />
+        : null}
       </div>
     );
   }

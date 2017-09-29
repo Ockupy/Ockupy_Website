@@ -10,6 +10,9 @@ class Projects extends Component {
     window.scrollTo(0, 0);
 
     $('.project-container').filter(':nth-child(1), :nth-child(2)').removeClass('hideme');
+    $('.project-container').filter(':nth-child(2)').css({
+      marginBottom: '100px'
+    });
 
     $(window).scroll(function () {
       $('.hideme').each(function (i) {

@@ -42,7 +42,7 @@
     "projectImg": "/images/project-images/Projects_07.png",
     "header": "/images/taphaus/Case-Study_taphaus_02.jpg",
     "image": "/images/taphaus/Case-Study_taphaus_06.jpg",
-    "imageTwo": "/images/taphaus/",
+    "imageTwo": "",
     "imageLast": "/images/taphaus/Case-Study_taphaus_10.jpg",
     "title": "TAPHAUS",
     "description": "Restaurant Marketing",
@@ -74,7 +74,7 @@
     "link": "bane",
     "projectImg": "/images/project-images/Projects_10.png",
     "header": "/images/bane/Case-Study_bane_v2_01.jpg",
-    "image": "/images/bane/Case-Study_bane_v2_04.jpg",
+    "image": "/images/bane/Case-Study_bane_v2_02.jpg",
     "imageTwo": "",
     "imageLast": "/images/bane/Case-Study_bane_v2_06.jpg",
     "title": "BANE",
@@ -111,7 +111,7 @@
     "_id": 4,
     "link": "madd",
     "projectImg": "/images/project-images/Projects_14.png",
-    "header": "/images/madd/",
+    "header": "",
     "image": "/images/madd/Case-Study_Madd_08.jpg",
     "imageTwo": "",
     "imageLast": "/images/madd/Case-Study_Madd_13.jpg",
@@ -128,9 +128,9 @@
     ],
     "results": [],
     "sliderImages": [
-      {"_id": 1, "src": "/images/madd/"},
-      {"_id": 2, "src": "/images/madd/"},
-      {"_id": 3, "src": "/images/madd/"}
+      {"_id": 1, "src": ""},
+      {"_id": 2, "src": ""},
+      {"_id": 3, "src": ""}
     ],
     "video": "",
     "website": "www.madd-coffee.com"
@@ -153,8 +153,8 @@
     ],
     "results": [],
     "sliderImages": [
-      {"_id": 1, "src": "/images/aeon/"},
-      {"_id": 2, "src": "/images/aeon/"}
+      {"_id": 1, "src": ""},
+      {"_id": 2, "src": ""}
     ],
     "video": "",
     "website": "www.aeon.fund"
