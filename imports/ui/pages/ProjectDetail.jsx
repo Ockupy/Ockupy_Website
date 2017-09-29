@@ -101,7 +101,6 @@ class ProjectDetail extends Component {
             image={data.imageLast}
           />
         : null}
-        <LetsWork />
       </div>
     );
   }
