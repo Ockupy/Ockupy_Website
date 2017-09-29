@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import { LetsWork } from '../components/LetsWork';
 import { FullImage } from '../components/Projects/Full-Image';
 import { ProjectVideo } from '../components/Projects/ProjectVideo';
 import Slider from '../components/Projects/Slider';
@@ -99,6 +100,7 @@ class ProjectDetail extends Component {
             image={data.imageLast}
           />
         : null}
+        <LetsWork />
       </div>
     );
   }

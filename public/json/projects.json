@@ -2,7 +2,7 @@
   {
     "_id": 1,
     "link": "lavati",
-    "projectImg": "/images/project-images/Projects_03.png",
+    "projectImg": "/images/project-images/lavatiProject.jpg",
     "header": "/images/lavati/Case-Study_Lavati_v2_01.jpg",
     "image": "/images/lavati/Case-Study_Lavati_v2_03.jpg",
     "imageTwo": "/images/lavati/Case-Study_Lavati_v2_06.jpg",
@@ -39,7 +39,7 @@
   {
     "_id": 2,
     "link": "taphaus",
-    "projectImg": "/images/project-images/Projects_07.png",
+    "projectImg": "/images/project-images/taphausProject.jpg",
     "header": "/images/taphaus/Case-Study_taphaus_02.jpg",
     "image": "/images/taphaus/Case-Study_taphaus_06.jpg",
     "imageTwo": "",
@@ -73,7 +73,7 @@
   {
     "_id": 3,
     "link": "bane",
-    "projectImg": "/images/project-images/Projects_10.png",
+    "projectImg": "/images/project-images/baneProject.jpg",
     "header": "/images/bane/Case-Study_bane_v2_01.jpg",
     "image": "/images/bane/Case-Study_bane_v2_02.jpg",
     "imageTwo": "",
@@ -110,7 +110,7 @@
   {
     "_id": 4,
     "link": "madd",
-    "projectImg": "/images/project-images/Projects_14.png",
+    "projectImg": "/images/project-images/maddProject.jpg",
     "header": "",
     "image": "/images/madd/Case-Study_Madd_08.jpg",
     "imageTwo": "",
@@ -138,7 +138,7 @@
   {
     "_id": 5,
     "link": "aeon",
-    "projectImg": "/images/project-images/Projects_17.png",
+    "projectImg": "/images/project-images/aeonProject.jpg",
     "header": "/images/aeon/Case-Study_AeonFunds_03.jpg",
     "image": "",
     "imageTwo": "",

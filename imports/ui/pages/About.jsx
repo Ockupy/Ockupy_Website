@@ -11,6 +11,8 @@ class About extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
 
+    $('.block-wrapper').filter(':nth-child(1)').removeClass('hideme');
+
     $(window).scroll(function () {
       $('.hideme').each(function (i) {
         var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 200;
