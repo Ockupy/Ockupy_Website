@@ -17,11 +17,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('/videos/ockupy-video.gif') center center no-repeat;
-    background-size: cover;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
+    background: linear-gradient(179deg, #2b32c6 , #6f2ed0 , #a532b9 , #d02e78 , #c63423 , #a55b1e );
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
 
     h1 {
       font-weight: 600;
