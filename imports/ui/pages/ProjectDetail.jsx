@@ -62,45 +62,47 @@ class ProjectDetail extends Component {
         {data.image ?
           <FullImage
             image={data.image}
-          />
-        : null}
-        <div className="project-stats">
-          <h2>Results:</h2>
-          <div className="wrapper">
-            {data.results.map(stat => {
-              return <div style={{
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'flex-start',
-                alignItems: 'center',
-                maxWidth: '300px'
-              }} key={stat._id}>
-                <h1 className="bg-animate">{stat.value}</h1>
-                <p>{stat.description}</p>
-              </div>
-            })}
-          </div>
-        </div>
+          /> : null
+        }
+        {data.results ?
+          <div className="project-stats">
+            <h2>Results:</h2>
+            <div className="wrapper">
+              {data.results.map(stat => {
+                return <div style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-start',
+                  alignItems: 'center',
+                  maxWidth: '300px'
+                }} key={stat._id}>
+                  <h1 className="bg-animate">{stat.value}</h1>
+                  <p>{stat.description}</p>
+                </div>
+              })}
+            </div>
+          </div> : null
+        }
         {data.imageTwo ?
           <FullImage
             image={data.imageTwo}
-          />
-        : null}
+          /> : null
+        }
         {data.sliderImages ?
           <Slider
             slides={data.sliderImages}
-          />
-        : null}
+          /> : null
+        }
         {data.video ?
           <ProjectVideo
             source={data.video}
-          />
-        : null}
+          /> : null
+        }
         {data.imageLast ?
           <LastImage
             image={data.imageLast}
-          />
-        : null}
+          /> : null
+        }
       </div>
     );
   }
