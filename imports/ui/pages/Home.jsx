@@ -28,10 +28,9 @@ class Home extends Component {
 
         if( bottom_of_window > bottom_of_object ){
           $(this).css({
-            opacity:1,
+            opacity: 1,
             filter: 'alpha(opacity=100)',
-            transition:'all .8s ease',
-            // transform: 'translateY(-100px)',
+            transition:'all .9s ease',
             top:'0em'
           });
         }
@@ -44,11 +43,12 @@ class Home extends Component {
         if( bottom_of_window > bottom_of_object ){
           $(this).css({
             height: '100%',
-            transition: 'all 3s ease'
+            transition: 'all 2s ease',
+            transitionDelay: '1s'
           });
         }
       });
-      
+
     });
   }
 
