@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
+import LetsWork from '../components/LetsWork';
 import Footer from '../components/Footer';
 import { AboutServices } from '../components/About-Services';
-import { LetsWork } from '../components/LetsWork';
 import { ViewProjectsBtn } from '../components/Projects/ViewProjectsBtn';
 
 

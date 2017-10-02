@@ -127,11 +127,7 @@
       {"_id": 4, "service": "(later) Packaging Design"}
     ],
     "results": [],
-    "sliderImages": [
-      {"_id": 1, "src": ""},
-      {"_id": 2, "src": ""},
-      {"_id": 3, "src": ""}
-    ],
+    "sliderImages": [],
     "video": "",
     "website": "www.madd-coffee.com"
   },
@@ -152,10 +148,7 @@
       {"_id": 1, "service": "Custom Wordpress Template Development"}
     ],
     "results": [],
-    "sliderImages": [
-      {"_id": 1, "src": ""},
-      {"_id": 2, "src": ""}
-    ],
+    "sliderImages": [],
     "video": "",
     "website": "www.aeon.fund"
   }

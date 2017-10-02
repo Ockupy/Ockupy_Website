@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import { LetsWork } from '../components/LetsWork';
 import { LastImage } from '../components/Projects/Last-Image';
 import { FullImage } from '../components/Projects/Full-Image';
 import { ProjectVideo } from '../components/Projects/ProjectVideo';

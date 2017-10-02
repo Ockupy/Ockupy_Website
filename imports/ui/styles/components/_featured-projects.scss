@@ -2,27 +2,30 @@
 .featured-projects {
 
   .background {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    width: 100%;
+    height: inherit;
+    margin-bottom: 0.5em;
     font-size: 128px;
+    font-weight: 300;
     color: #452773;
     position: relative;
-    margin-bottom: 0.5em;
+    font-family: 'Open Sans', sans-serif;
+    
 
     //line behind featured
     &::before {
       border-top: 5px solid #eee;
       content: "";
-      margin: 0 auto; /* this centers the line to the full width specified */
-      position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-      top: 25%;
-      left: 0;
-      right: 60%;
-      bottom: 0;
+      margin: 0 auto;
+      position: absolute;
+      top: 35%;
+      right: 65%;
       width: 300px;
       z-index: -1;
       transform: rotate(17deg);
+      -webkit-transform: rotate(17deg);
       transform-origin: 20% 40%;
+      -webkit-transform-origin: 20% 40%;
     }
   }
 

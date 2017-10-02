@@ -69,15 +69,15 @@ class ContactForm extends Component {
         <form>
           <div className="form-group">
             <input ref="name" type="text" required="required" />
-            <label className="control-label" for="input">Name*</label><i className="bar"></i>
+            <label className="control-label" htmlFor="input">Name*</label><i className="bar"></i>
           </div>
           <div className="form-group">
             <input ref="email" type="text" required="required" />
-            <label className="control-label" for="input">Email</label><i className="bar"></i>
+            <label className="control-label" htmlFor="input">Email</label><i className="bar"></i>
           </div>
           <div className="form-group">
             <input ref="company" type="text" required="required" />
-            <label className="control-label" for="input">Company</label><i className="bar"></i>
+            <label className="control-label" htmlFor="input">Company</label><i className="bar"></i>
           </div>
           <div className="form-group">
             <select>
@@ -98,7 +98,7 @@ class ContactForm extends Component {
           </div>
           <div className="form-group">
             <textarea ref="message" required="required"></textarea>
-            <label className="control-label" for="textarea">Tell us a bit more about your needs:</label><i className="bar"></i>
+            <label className="control-label" htmlFor="textarea">Tell us a bit more about your needs:</label><i className="bar"></i>
           </div>
           <div className="form-group">
             <button onClick={this.submitForm.bind(this)}>Submit</button>
