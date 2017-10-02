@@ -20,9 +20,9 @@ class Nav extends Component {
         <header>
           <nav>
             <ul>
-              <li><a href="/about">About<span className="underline"></span></a></li>
-              <li><a href="/projects">Projects<span className="underline"></span></a></li>
-              <li><a href="/contact">Contact<span className="underline"></span></a></li>
+              <li id="about"><a href="/about">About<span className="underline"></span></a></li>
+              <li id="projects"><a href="/projects">Projects<span className="underline"></span></a></li>
+              <li id="contact"><a href="/contact">Contact<span className="underline"></span></a></li>
             </ul>
           </nav>
           <h1 className="logo">

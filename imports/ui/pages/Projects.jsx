@@ -9,6 +9,8 @@ class Projects extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
 
+    $('#projects').addClass('active');
+
     $('.project-container').filter(':nth-child(1), :nth-child(2)').removeClass('hideme');
     $('.project-container').filter(':nth-child(2)').css({
       marginBottom: '100px'

@@ -7,6 +7,8 @@ class Contact extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
+
+    $('#contact').addClass('active');
   }
 
   render() {
