@@ -12,8 +12,7 @@ export const HomeContent = () => {
       <div className="home-info">
         <div className="block-wrapper">
           <div className="block-one">
-            <p>We’re Ockupy, the innovative trailblazers that your local creative agency told you not to worry about.<br />Not only will we ensure that your experience in the digital world is gratifying, but we will also help you develop a leading presence in today’s competitive online culture.
-</p>
+            <p>We’re Ockupy, the innovative trailblazers that your local creative agency told you not to worry about. Not only will we ensure that your experience in the digital world is gratifying, but we will also help you develop a leading presence in today’s competitive online culture.</p>
             <span className="bar-1"></span>
           </div>
         </div>
