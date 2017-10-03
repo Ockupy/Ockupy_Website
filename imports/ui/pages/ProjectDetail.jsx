@@ -54,7 +54,7 @@ class ProjectDetail extends Component {
                     return <li key={li._id}>{li.service}</li>
                   })}
                 </ul>
-                <span><b>WEBSITE:</b>&nbsp;&nbsp;&nbsp;{data.website}</span>
+                <span>WEBSITE:&nbsp;&nbsp;&nbsp;<a target="_blank" className="link">{data.website}</a></span>
               </div> : null}
           </div>
         </div>
@@ -65,7 +65,7 @@ class ProjectDetail extends Component {
         }
         {data.results ?
           <div className="project-stats">
-            <h2>Results:</h2>
+            <h3>Results:</h3>
             <div className="wrapper">
               {data.results.map(stat => {
                 return <div style={{

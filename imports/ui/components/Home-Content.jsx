@@ -12,13 +12,14 @@ export const HomeContent = () => {
       <div className="home-info">
         <div className="block-wrapper">
           <div className="block-one">
-            <p>We are a creative agency whose goal is to achieve presence through the digital culture with appealing designs and quality content, while leveraging our clients’ companies through our influencer network. </p>
+            <p>We’re Ockupy, the innovative trailblazers that your local creative agency told you not to worry about.<br />Not only will we ensure that your experience in the digital world is gratifying, but we will also help you develop a leading presence in today’s competitive online culture.
+</p>
             <span className="bar-1"></span>
           </div>
         </div>
         <div className="block-two-wrapper">
           <div className="block-two">
-            <p>Ockupy is a full service digital marketing and business services firm that helps brands not only launch impactful campaigns across multiple platforms, but also provides the infrastructure to build and run a successful business. </p>
+            <p>We’re a full-service marketing agency who will build your campaign from the ground up and connect you with today’s leading influencers. From producing eccentric logos and redesigning your web platform to creating fresh video content, we’ll deliver model campaigns for your brand.</p>
             <span className="bar-2"></span>
           </div>
         </div>
