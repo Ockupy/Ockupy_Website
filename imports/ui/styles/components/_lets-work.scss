@@ -41,6 +41,22 @@
         font-size: 128px;
         color: #452773;
         padding-bottom: 20px;
+        position: relative;
+
+        &:before {
+          border-top: 7px solid #eee !important;
+          content: "";
+          margin: 0 auto;
+          position: absolute;
+          top: 48%;
+          left: 9%;
+          width: 350px;
+          z-index: -2;
+          -webkit-transform: rotate(10deg);
+          transform: rotate(17deg);
+          -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+        }
       }
 
       p {
