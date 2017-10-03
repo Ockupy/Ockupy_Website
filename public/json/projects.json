@@ -28,10 +28,9 @@
       {"_id": 3, "stat": "Revenue", "value": "+ 313%", "description": "Increased Revenue in sales from November 2016 to Jan 2017"}
     ],
     "sliderImages": [
-      {"_id": 1, "src": "/images/lavati/look6.png"},
-      {"_id": 2, "src": "/images/lavati/2.png"},
-      {"_id": 3, "src": "/images/lavati/look4.png"},
-      {"_id": 4, "src": "/images/lavati/look7.png"}
+      {"_id": 1, "src": "/images/lavati/lavatiGallery_1.jpg"},
+      {"_id": 2, "src": "/images/lavati/lavatiGallery_2.jpg"},
+      {"_id": 3, "src": "/images/lavati/lavatiGallery_3.jpg"}
     ],
     "video": "https://drive.google.com/a/ockupy.com/file/d/0B9Fs5tOufgOoQU1KZmx4V29LaXM/preview?",
     "website": "www.lavati.com"
@@ -65,7 +64,11 @@
       {"_id": 3, "stat": "Traffic", "value": "+ 92.29%", "description": "Increased Website Traffic"}
     ],
     "sliderImages": [
-      {"_id": 1, "src": "/images/taphaus/Case-Study_taphaus_12.jpg"}
+      {"_id": 1, "src": "/images/taphaus/taphausGallery_1.gif"},
+      {"_id": 2, "src": "/images/taphaus/taphausGallery_2.jpg"},
+      {"_id": 3, "src": "/images/taphaus/taphausGallery_3.jpg"},
+      {"_id": 4, "src": "/images/taphaus/taphausGallery_4.gif"},
+      {"_id": 5, "src": "/images/taphaus/taphausGallery_5.jpg"}
     ],
     "video": "",
     "website": "www.taphausjc.com"
@@ -99,10 +102,11 @@
       {"_id": 3, "stat": "Revenue", "value": "+ 82.26%", "description": "Increased Revenue"}
     ],
     "sliderImages": [
-      {"_id": 1, "src": "/images/bane/580C6882.jpg"},
-      {"_id": 2, "src": "/images/bane/580C7067.jpg"},
-      {"_id": 3, "src": "/images/bane/580C7207.jpg"},
-      {"_id": 4, "src": "/images/bane/Bane-Apocalypse-1.jpg"}
+      {"_id": 1, "src": "/images/bane/caseStudyBaneGallery_1.jpg"},
+      {"_id": 2, "src": "/images/bane/caseStudyBaneGallery_2.jpg"},
+      {"_id": 3, "src": "/images/bane/caseStudyBaneGallery_3.jpg"},
+      {"_id": 4, "src": "/images/bane/caseStudyBaneGallery_4.jpg"},
+      {"_id": 5, "src": "/images/bane/caseStudyBaneGallery_5.jpg"}
     ],
     "video": "https://drive.google.com/a/ockupy.com/file/d/0B9Fs5tOufgOoWTFiMFBKOHZGalE/preview?",
     "website": "www.banehauntedhouse.com"
@@ -111,10 +115,10 @@
     "_id": 4,
     "link": "madd",
     "projectImg": "/images/project-images/maddProject.jpg",
-    "header": "",
-    "image": "/images/madd/Case-Study_Madd_08.jpg",
-    "imageTwo": "",
-    "imageLast": "/images/madd/Case-Study_Madd_13.jpg",
+    "header": "/images/madd/Case-Study_Madd_02.jpg",
+    "image": "/images/madd/Case-Study_Madd_05.jpg",
+    "imageTwo": "/images/madd/Case-Study_Madd_08.jpg",
+    "imageLast": "",
     "title": "MADD COFFEE",
     "description": "Welcoming a New Coffee Brand",
     "detailDescription": [
@@ -126,19 +130,16 @@
       {"_id": 3, "service": "Custom Shopify Template Development"},
       {"_id": 4, "service": "(later) Packaging Design"}
     ],
-    "results": [],
-    "sliderImages": [],
-    "video": "",
     "website": "www.madd-coffee.com"
   },
   {
     "_id": 5,
     "link": "aeon",
     "projectImg": "/images/project-images/aeonProject.jpg",
-    "header": "/images/aeon/Case-Study_AeonFunds_03.jpg",
+    "header": "/images/aeon/Case-Study_AeonFunds_01.jpg",
     "image": "",
-    "imageTwo": "",
-    "imageLast": "/images/aeon/Case-Study_AeonFunds_01.jpg",
+    "imageTwo": "/images/aeon/Case-Study_AeonFunds_04.jpg",
+    "imageLast": "/images/aeon/Case-Study_AeonFunds_03.jpg",
     "title": "AEON",
     "description": "The Place for Your Finances",
     "detailDescription": [
@@ -147,8 +148,6 @@
     "detailServices": [
       {"_id": 1, "service": "Custom Wordpress Template Development"}
     ],
-    "results": [],
-    "sliderImages": [],
     "video": "",
     "website": "www.aeon.fund"
   }
