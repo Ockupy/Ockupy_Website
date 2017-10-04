@@ -6,14 +6,17 @@ import ProjectData from '/public/json/projects.json';
 
 class Projects extends Component {
 
-  scrollBarInstance() {
-    var scrollbar = Scrollbar.init(document.querySelector('.page-content-wrapper'), {
-      'speed': '2.2',
-      'overscrollEffect': 'bounce',
-      'damping': '0.04'
+  componentDidMount() {
+    window.scrollTo(0, 0);
+
+    $('#projects').addClass('active');
+
+    $('.project-container').filter(':nth-child(1), :nth-child(2)').removeClass('hideme');
+    $('.project-container').filter(':nth-child(2)').css({
+      marginBottom: '100px'
     });
 
-    scrollbar.addListener(function () {
+    $(window).scroll(function () {
       $('.hideme').each(function (i) {
         var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 200;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -27,19 +30,6 @@ class Projects extends Component {
         }
       });
     });
-  }
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-
-    $('#projects').addClass('active');
-
-    $('.project-container').filter(':nth-child(1), :nth-child(2)').removeClass('hideme');
-    $('.project-container').filter(':nth-child(2)').css({
-      marginBottom: '100px'
-    });
-
-    this.scrollBarInstance();
   }
 
   projects() {

@@ -5,19 +5,19 @@ import Footer from '../components/Footer';
 import { AboutContent } from '../components/About/About-Content';
 import { AboutServices } from '../components/About/About-Services';
 import { ViewProjectsBtn } from '../components/Projects/ViewProjectsBtn';
-import Scrollbar from 'smooth-scrollbar';
 
 
 class About extends Component {
 
-  scrollBarInstance() {
-    var scrollbar = Scrollbar.init(document.querySelector('.page-content-wrapper'), {
-      'speed': '2.2',
-      'overscrollEffect': 'bounce',
-      'damping': '0.04'
-    });
+  componentDidMount() {
+    window.scrollTo(0, 0);
 
-    scrollbar.addListener(function () {
+    $('#about').addClass('active');
+
+    $('.block-wrapper').filter(':nth-child(1)').removeClass('hideme');
+
+    $(window).scroll(function () {
+
       $('.block').each(function (i) {
         var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 100;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -55,18 +55,7 @@ class About extends Component {
           });
         }
       });
-    })
-  }
-
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-
-    $('#about').addClass('active');
-
-    $('.block-wrapper').filter(':nth-child(1)').removeClass('hideme');
-
-    this.scrollBarInstance();
+    });
   }
 
   render() {

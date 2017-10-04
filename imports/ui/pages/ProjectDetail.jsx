@@ -27,10 +27,6 @@ class ProjectDetail extends Component {
     this.detectUrlData();
   }
 
-  projects() {
-    return ProjectData;
-  }
-
   detectUrlData() {
     let data;
     let pathname = window.location.pathname;
