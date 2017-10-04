@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class LetsWork extends Component {
 
   componentDidMount() {
+
     $(window).scroll(function () {
 
       $('.wrapper').each(function (i) {

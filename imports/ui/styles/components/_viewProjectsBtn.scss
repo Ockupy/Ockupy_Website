@@ -13,6 +13,7 @@
 
   &:hover  {
     background-image: url('/images/Homepage_v2_07.png');
+    transform: translateY(-7px);
     transition: all .2s ease-in-out;
   }
 

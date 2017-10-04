@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 class Nav extends Component {
+
   componentDidMount() {
 
     $(window).scroll(function () {
-      // console.log($(window).scrollTop());
       if ($(window).scrollTop() < 60) {
         $('.navigation-wrapper').removeClass('fixed');
       }

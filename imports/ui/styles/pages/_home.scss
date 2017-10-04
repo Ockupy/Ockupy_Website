@@ -64,12 +64,19 @@
         left: -55%;
         right: 0;
         bottom: 0;
-        width: 1200px;
+        width: 0;
         z-index: -2;
         -webkit-transform: rotate(-43deg);
         transform: rotate(-43deg);
         -webkit-transform-origin: left;
         transform-origin: left;
+      }
+
+      &.animate::before {
+        animation: beforeEnter;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
       }
 
       p {
@@ -131,6 +138,18 @@
   }
 }
 
+@keyframes beforeEnter {
+  from {width: 0px;}
+  to {width:1200px}
+}
+
+@-webkit-keyframes beforeEnter {
+
+}
+
+@-moz-keyframes beforeEnter {
+
+}
 
 
 @-webkit-keyframes AnimationName {

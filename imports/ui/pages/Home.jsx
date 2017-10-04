@@ -3,22 +3,20 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import FeaturedProjects from '../components/Projects/FeaturedProjects';
 import LetsWork from '../components/LetsWork';
-import Scrollbar from 'smooth-scrollbar';
 import { HomeContent } from '../components/Home-Content';
 import { ViewProjectsBtn } from '../components/Projects/ViewProjectsBtn';
 
 class Home extends Component {
 
-  scrollBar() {
-    // var scrollbar = Scrollbar.init(document.querySelector('.page-content-wrapper'), {
-    //   'speed': '2.2',
-    //   'overscrollEffect':'bounce',
-    //   'damping':'.04'
-    // });
-    //
-    // scrollbar.addListener(function () {
-    //
-    // });
+  componentDidMount() {
+
+    window.scrollTo(0,0);
+
+    $('.logo').click(function () {
+      $('html, body').animate({
+        scrollTop: 0,
+      }, 1000);
+    });
 
     $(window).scroll(function () {
       if ( $(this).scrollTop() > 200 ) {
@@ -29,7 +27,7 @@ class Home extends Component {
         var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 100;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-        if( bottom_of_window > bottom_of_object ){
+        if ( bottom_of_window > bottom_of_object ){
           $(this).css({
             opacity: 1,
             filter: 'alpha(opacity=100)',
@@ -38,6 +36,16 @@ class Home extends Component {
           });
         }
       });// end hideme
+
+      //animate home page :before
+      $('.block-one').each(function (i) {
+        var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 100;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        if( bottom_of_window > bottom_of_object ){
+          $('.block-one').addClass('animate');
+        }
+      });
 
       $('.bar-2').each(function (i) {
         var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 100;
@@ -52,18 +60,6 @@ class Home extends Component {
         }
       });
     });
-  }
-
-  componentDidMount() {
-    window.scrollTo(0,0);
-
-    $('.logo').click(function () {
-      $('html, body').animate({
-        scrollTop: 0,
-      }, 1000);
-    });
-
-    this.scrollBar();
   }
 
   render() {

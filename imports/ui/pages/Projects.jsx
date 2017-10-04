@@ -7,7 +7,7 @@ import ProjectData from '/public/json/projects.json';
 class Projects extends Component {
 
   componentDidMount() {
-    window.scrollTo(0, 0);
+    window.scrollTo(0,0);
 
     $('#projects').addClass('active');
 

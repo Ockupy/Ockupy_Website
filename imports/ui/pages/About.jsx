@@ -6,11 +6,10 @@ import { AboutContent } from '../components/About/About-Content';
 import { AboutServices } from '../components/About/About-Services';
 import { ViewProjectsBtn } from '../components/Projects/ViewProjectsBtn';
 
-
 class About extends Component {
 
   componentDidMount() {
-    window.scrollTo(0, 0);
+    window.scrollTo(0,0);
 
     $('#about').addClass('active');
 
