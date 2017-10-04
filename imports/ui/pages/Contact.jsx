@@ -14,9 +14,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <Nav
-          navLogo='/images/logo-black.png'
-        />
+        <Nav />
         <div className="page-content-wrapper">
           <div className="contact-box">
             <div className="mask bg-animate">

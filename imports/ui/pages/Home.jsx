@@ -3,22 +3,20 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import FeaturedProjects from '../components/Projects/FeaturedProjects';
 import LetsWork from '../components/LetsWork';
+import Scrollbar from 'smooth-scrollbar';
 import { HomeContent } from '../components/Home-Content';
 import { ViewProjectsBtn } from '../components/Projects/ViewProjectsBtn';
 
 class Home extends Component {
 
-  componentDidMount() {
-    window.scrollTo(0,0);
-
-    $('.logo').click(function () {
-      $('html, body').animate({
-        scrollTop: 0,
-      }, 1000);
+  scrollBarInstance() {
+    var scrollbar = Scrollbar.init(document.querySelector('.page-content-wrapper'), {
+      'speed': '2.2',
+      'overscrollEffect': 'bounce',
+      'damping': '0.04'
     });
 
-    $(window).scroll(function () {
-
+    scrollbar.addListener(function () {
       if ( $(this).scrollTop() > 200 ) {
         $('.bar-1').addClass('animate-bar');
       }
@@ -49,17 +47,26 @@ class Home extends Component {
           });
         }
       });
-
     });
+  }
+
+  componentDidMount() {
+    window.scrollTo(0,0);
+
+    $('.logo').click(function () {
+      $('html, body').animate({
+        scrollTop: 0,
+      }, 1000);
+    });
+
+    this.scrollBarInstance();
   }
 
   render() {
     return (
       <div>
         <div id="desktop-sites">
-          <Nav
-            navLogo='/images/logo-black.png'
-          />
+          <Nav />
           <div className="page-content-wrapper">
             <HomeContent />
             <FeaturedProjects />

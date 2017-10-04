@@ -16,13 +16,28 @@ class ProjectDetail extends Component {
     }
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+    // get projects from json file
+    axios.get('/json/projects.json')
+      .then(res => {
+        this.setState({ data: res.data });
+      });
+
+    this.detectUrlData();
+  }
+
+  projects() {
+    return ProjectData;
+  }
+
   detectUrlData() {
     let data;
     let pathname = window.location.pathname;
     let project = pathname.slice(10);
 
     if (pathname === `/projects/${project}`) {
-      data = this.state.data.filter(function (data) {
+      data = this.state && this.state.data.filter(function (data) {
         return data.link === `${project}`;
       })[0];
       return this.renderData(data);
@@ -106,24 +121,11 @@ class ProjectDetail extends Component {
     );
   }
 
-  componentDidMount() {
-    window.scrollTo(0, 0);
-    // get projects from json file
-    axios.get('/json/projects.json')
-      .then(data => {
-        this.setState({ data: data.data });
-      });
-
-    this.detectUrlData();
-  }
-
 
   render() {
     return (
       <div>
-        <Nav
-          navLogo='/images/logo-black.png'
-        />
+        <Nav />
         {this.detectUrlData()}
         <Footer />
       </div>

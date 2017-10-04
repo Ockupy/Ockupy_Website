@@ -6,17 +6,14 @@ import ProjectData from '/public/json/projects.json';
 
 class Projects extends Component {
 
-  componentDidMount() {
-    window.scrollTo(0, 0);
-
-    $('#projects').addClass('active');
-
-    $('.project-container').filter(':nth-child(1), :nth-child(2)').removeClass('hideme');
-    $('.project-container').filter(':nth-child(2)').css({
-      marginBottom: '100px'
+  scrollBarInstance() {
+    var scrollbar = Scrollbar.init(document.querySelector('.page-content-wrapper'), {
+      'speed': '2.2',
+      'overscrollEffect': 'bounce',
+      'damping': '0.04'
     });
 
-    $(window).scroll(function () {
+    scrollbar.addListener(function () {
       $('.hideme').each(function (i) {
         var bottom_of_object = ($(this).position().top + $(this).outerHeight()) - 200;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -30,6 +27,19 @@ class Projects extends Component {
         }
       });
     });
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+
+    $('#projects').addClass('active');
+
+    $('.project-container').filter(':nth-child(1), :nth-child(2)').removeClass('hideme');
+    $('.project-container').filter(':nth-child(2)').css({
+      marginBottom: '100px'
+    });
+
+    this.scrollBarInstance();
   }
 
   projects() {
@@ -53,9 +63,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <Nav
-          navLogo='/images/logo-black.png'
-        />
+        <Nav />
         <div className="page-content-wrapper">
           <div className="project-page">
             {this.renderProjects()}
