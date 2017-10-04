@@ -2,7 +2,7 @@
   width: 500px;
   height: 150px;
   margin: 3em auto;
-  background-image: url('/images/Homepage_v2_07.png');
+  background-image: url('/images/view_btn.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -11,8 +11,9 @@
   align-items: center;
   justify-content: center;
 
-  &:hover a {
-    animation: bounce .60s linear;
+  &:hover  {
+    background-image: url('/images/Homepage_v2_07.png');
+    transition: all .2s ease-in-out;
   }
 
   a {

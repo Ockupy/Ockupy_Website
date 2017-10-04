@@ -27,7 +27,7 @@ class LetsWork extends Component {
           <span className="bar-left"></span>
           <span className="bar-right"></span>
           <div className="content">
-            <h1 className="bg-animate">lets work</h1>
+            <h1 className="bg-animate">let&apos;s work</h1>
             <p>One Small Step Towards a Better Brand</p>
             <span id="link"><a href="/contact">Get Started</a></span>
           </div>

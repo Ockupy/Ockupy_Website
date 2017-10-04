@@ -9,17 +9,18 @@ import { ViewProjectsBtn } from '../components/Projects/ViewProjectsBtn';
 
 class Home extends Component {
 
-  componentDidMount() {
-    window.scrollTo(0,0);
-
-    $('.logo').click(function () {
-      $('html, body').animate({
-        scrollTop: 0,
-      }, 1000);
-    });
+  scrollBar() {
+    // var scrollbar = Scrollbar.init(document.querySelector('.page-content-wrapper'), {
+    //   'speed': '2.2',
+    //   'overscrollEffect':'bounce',
+    //   'damping':'.04'
+    // });
+    //
+    // scrollbar.addListener(function () {
+    //
+    // });
 
     $(window).scroll(function () {
-
       if ( $(this).scrollTop() > 200 ) {
         $('.bar-1').addClass('animate-bar');
       }
@@ -51,6 +52,18 @@ class Home extends Component {
         }
       });
     });
+  }
+
+  componentDidMount() {
+    window.scrollTo(0,0);
+
+    $('.logo').click(function () {
+      $('html, body').animate({
+        scrollTop: 0,
+      }, 1000);
+    });
+
+    this.scrollBar();
   }
 
   render() {
