@@ -32,7 +32,7 @@
       {"_id": 2, "src": "/images/lavati/lavatiGallery_2.jpg"},
       {"_id": 3, "src": "/images/lavati/lavatiGallery_3.jpg"}
     ],
-    "video": "https://drive.google.com/a/ockupy.com/file/d/0B9Fs5tOufgOoQU1KZmx4V29LaXM/preview?",
+    "video": "https://player.vimeo.com/video/236923993",
     "website": "www.lavati.com"
   },
   {
@@ -108,7 +108,7 @@
       {"_id": 4, "src": "/images/bane/caseStudyBaneGallery_4.jpg"},
       {"_id": 5, "src": "/images/bane/caseStudyBaneGallery_5.jpg"}
     ],
-    "video": "https://drive.google.com/a/ockupy.com/file/d/0B9Fs5tOufgOoWTFiMFBKOHZGalE/preview?",
+    "video": "https://player.vimeo.com/video/236925176",
     "website": "www.banehauntedhouse.com"
   },
   {
