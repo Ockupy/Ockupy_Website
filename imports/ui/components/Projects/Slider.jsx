@@ -20,8 +20,8 @@ class Slider extends Component {
         <div className="swiper-slide" key={slide._id}>
           <img className="swiper-slide-image" src={slide.src} />
         </div>
-      )
-    })
+      );
+    });
   }
 
 
@@ -33,12 +33,10 @@ class Slider extends Component {
           {this.renderSlides()}
         </div>
 
-        <div className="swiper-pagination"></div>
-
         <div className="swiper-button-prev"></div>
         <div className="swiper-button-next"></div>
       </div>
-    )
+    );
   }
 }
 

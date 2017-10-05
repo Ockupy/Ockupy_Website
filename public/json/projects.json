@@ -7,6 +7,7 @@
     "image": "/images/lavati/Case-Study_Lavati_v2_03.jpg",
     "imageTwo": "/images/lavati/Case-Study_Lavati_v2_06.jpg",
     "imageLast": "/images/lavati/Case-Study_Lavati_v2_09.jpg",
+    "nextProject": "taphaus",
     "title": "LAVATI",
     "description": "Visually Striking Footwear Campaign",
     "detailDescription": [
@@ -43,6 +44,7 @@
     "image": "/images/taphaus/Case-Study_taphaus_06.jpg",
     "imageTwo": "",
     "imageLast": "/images/taphaus/Case-Study_taphaus_10.jpg",
+    "nextProject": "bane",
     "title": "TAPHAUS",
     "description": "Where Foodies Meet",
     "detailDescription": [
@@ -81,6 +83,7 @@
     "image": "/images/bane/Case-Study_bane_v2_02.jpg",
     "imageTwo": "",
     "imageLast": "/images/bane/Case-Study_bane_v2_06.jpg",
+    "nextProject": "madd",
     "title": "BANE",
     "description": "Marketing a Monster",
     "detailDescription": [
@@ -119,6 +122,7 @@
     "image": "/images/madd/Case-Study_Madd_05.jpg",
     "imageTwo": "/images/madd/Case-Study_Madd_08.jpg",
     "imageLast": "",
+    "nextProject": "aeon",
     "title": "MADD COFFEE",
     "description": "Welcoming a New Coffee Brand",
     "detailDescription": [

@@ -9,6 +9,7 @@ import About from '../ui/pages/About';
 import Projects from '../ui/pages/Projects';
 import Contact from '../ui/pages/Contact';
 import ProjectDetail from '../ui/pages/ProjectDetail';
+import ProjectData from '/public/json/projects.json';
 
 FlowRouter.route('/', {
   action() {
@@ -37,7 +38,10 @@ FlowRouter.route('/projects/', {
 FlowRouter.route('/projects/:id', {
   action(params) {
     mount(App, {
-      content: <ProjectDetail projectId={params.id}/>
+      content: <ProjectDetail
+        projectId={params.id}
+        data={ProjectData}
+      />
     });
   }
 });

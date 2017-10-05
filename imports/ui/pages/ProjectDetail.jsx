@@ -4,40 +4,27 @@ import Footer from '../components/Footer';
 import { LastImage } from '../components/Projects/Last-Image';
 import { FullImage } from '../components/Projects/Full-Image';
 import { ProjectVideo } from '../components/Projects/ProjectVideo';
+import NextProjectBtn from '../components/Projects/NextProjectBtn';
 import Slider from '../components/Projects/Slider';
 import axios from 'axios';
 
 class ProjectDetail extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      data: []
-    }
   }
 
   componentDidMount() {
-    window.scrollTo(0, 0);
-    // get projects from json file
-    axios.get('/json/projects.json')
-      .then(res => {
-        this.setState({ data: res.data });
-      });
-
+    window.scrollTo(0,0);
     this.detectUrlData();
   }
 
   detectUrlData() {
-    let data;
-    let pathname = window.location.pathname;
-    let project = pathname.slice(10);
+    let project = this.props.projectId;
 
-    if (pathname === `/projects/${project}`) {
-      data = this.state && this.state.data.filter(function (data) {
-        return data.link === `${project}`;
-      })[0];
-      return this.renderData(data);
-    }
+    let data = this.props.data.filter(function (data) {
+      return data.link === `${project}`;
+    })[0];
+    return this.renderData(data);
   }
 
   renderData(data) {
@@ -111,6 +98,11 @@ class ProjectDetail extends Component {
         {data.imageLast ?
           <LastImage
             image={data.imageLast}
+          /> : null
+        }
+        {data.nextProject ?
+          <NextProjectBtn
+            nextLink={`/projects/${data.nextProject}`}
           /> : null
         }
       </div>
