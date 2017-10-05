@@ -2,6 +2,22 @@ import React, { Component } from 'react';
 
 class Slider extends Component {
 
+  componentWillReceiveProps(nextProps) {
+    var swiper = new Swiper('.swiper-container', {
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      mousewheelControl: false,
+    });
+    swiper.destroy(false, true);
+    setTimeout(function(){
+      var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        mousewheelControl: false,
+      });
+    }, 300);
+  }
+
   componentDidMount() {
     var swiper = new Swiper('.swiper-container', {
       nextButton: '.swiper-button-next',
