@@ -30,7 +30,9 @@ FlowRouter.route('/about', {
 FlowRouter.route('/projects/', {
   action() {
     mount(App, {
-      content: <Projects />
+      content: <Projects
+        data={ProjectData}
+      />
     });
   }
 });

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { ProjectBlock } from '../components/Projects/ProjectBlock';
-import ProjectData from '/public/json/projects.json';
 
 class Projects extends Component {
 
@@ -32,12 +31,8 @@ class Projects extends Component {
     });
   }
 
-  projects() {
-    return ProjectData;
-  }
-
   renderProjects() {
-    return this.projects().map((project) => {
+    return this.props.data.map((project) => {
       return (
         <ProjectBlock
           key={project._id}
