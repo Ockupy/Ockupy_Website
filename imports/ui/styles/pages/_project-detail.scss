@@ -154,14 +154,13 @@
 .swiper-container {
   width: 100%;
   height: 500px;
-  cursor: move;
 
   .swiper-button-prev {
     margin-left: 2em;
     background-image: url('/images/left-arrow.png') !important;
     background-size: 100% 75%;
     background-position: center;
-    top: 95% !important;
+    top: 90% !important;
     left: 85% !important;
   }
 
@@ -170,7 +169,7 @@
     background-image: url('/images/right-arrow.png') !important;
     background-size: 100% 75%;
     background-position: center;
-    top: 95% !important;
+    top: 90% !important;
   }
 
   .swiper-slide {
