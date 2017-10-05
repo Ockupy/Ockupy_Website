@@ -4,8 +4,8 @@ import Swiper from 'swiper';
 class Slider extends Component {
   componentDidMount() {
     var swiper = new Swiper('.swiper-container', {
-      nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
+      nextButton: '.swiper-button-next',
       mousewheelControl: false
     });
   }
