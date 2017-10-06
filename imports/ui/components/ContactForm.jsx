@@ -16,17 +16,21 @@ class ContactForm extends Component {
         helpValue: ''
       }
     };
+
+    this.handleBudget = this.handleBudget.bind(this);
+    this.handleHelp = this.handleHelp.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleHelp(e) {
-    this.setState({helpValue:e.target.value});
+  handleHelp(event) {
+    this.setState({helpValue: event.target.value});
   }
 
-  handleBudget(e) {
-    this.setState({budgetValue:e.target.value});
+  handleBudget(event) {
+    this.setState({budgetValue: event.target.value});
   }
 
-  submitForm() {
+  handleSubmit(event) {
     this.state = { message: {
       name: this.refs.name.value,
       email: this.refs.email.value,
@@ -71,10 +75,7 @@ class ContactForm extends Component {
         this.refs.message.value = '';
       }
     });
-  }
-
-  componentDidMount() {
-    //jquery
+    event.preventDefault();
   }
 
 
@@ -118,7 +119,7 @@ class ContactForm extends Component {
             <label className="control-label" htmlFor="textarea">Tell us a bit more about your needs:</label><i className="bar"></i>
           </div>
           <div className="form-group">
-            <button onClick={this.submitForm.bind(this)}>Submit</button>
+            <button onClick={this.handleSubmit}>Submit</button>
           </div>
         </form>
       </div>
