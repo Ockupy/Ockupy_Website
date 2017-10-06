@@ -24,6 +24,7 @@ class Projects extends Component {
           $(this).css({
             opacity:1,
             transition:'all .8s ease-in-out',
+            MozTransition:'all .8s ease-in-out',
             top:'0em'
           });
         }

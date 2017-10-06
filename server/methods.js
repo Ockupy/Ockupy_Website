@@ -11,7 +11,8 @@ Meteor.methods({
         to: 'Ockupy <info@ockupy.com>',
         from: `${message.name} ${message.email}`,
         subject: `${message.name} from ${message.company} sent an Email!`,
-        text: `${message.message}`
+        text: `Perspective Client needs help with ${message.helpValue}, and has a Budget of ${message.budgetValue}. "<br />"
+        ${message.message}`
       });
     });
   }

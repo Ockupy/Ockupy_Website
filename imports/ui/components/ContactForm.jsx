@@ -11,9 +11,19 @@ class ContactForm extends Component {
         name: '',
         email: '',
         company: '',
-        message: ''
+        message: '',
+        budgetValue: '',
+        helpValue: ''
       }
     };
+  }
+
+  handleHelp(e) {
+    this.setState({helpValue:e.target.value});
+  }
+
+  handleBudget(e) {
+    this.setState({budgetValue:e.target.value});
   }
 
   submitForm() {
@@ -29,6 +39,9 @@ class ContactForm extends Component {
       let company = this.state.message.company;
       let email = this.state.message.email;
       let message = this.state.message.message;
+      let budget = this.state.message.budgetValue;
+      let help = this.state.message.helpValue;
+
 
       if (name === '') {
         Bert.alert('Enter a valid name please!', 'danger');
@@ -45,9 +58,11 @@ class ContactForm extends Component {
         this.setState({
           message: {
             name: '',
-            company: '',
             email: '',
-            message: ''
+            company: '',
+            message: '',
+            budgetValue: '',
+            helpValue: ''
           }
         });
         this.refs.name.value = '';
@@ -80,20 +95,22 @@ class ContactForm extends Component {
             <label className="control-label" htmlFor="input">Company</label><i className="bar"></i>
           </div>
           <div className="form-group">
-            <select>
-              <option ref="" disabled selected>What Can We Help You With?</option>
-              <option ref="marketing">Marketing</option>
-              <option ref="development">Web Development</option>
-              <option ref="social">Social Media</option>
+            <select value={this.state.helpValue}
+              onChange={this.handleHelp}>
+              <option defaultValue disabled>What Can We Help You With?</option>
+              <option value="Marketing">Marketing</option>
+              <option value="Development">Web Development</option>
+              <option value="Social">Social Media</option>
             </select>
           </div>
           <div className="form-group">
-            <select>
-              <option ref="" disabled selected>What is Your Estimated Budget?</option>
-              <option ref="1">$0 - $2,000</option>
-              <option ref="2">$2,000 - $5,000</option>
-              <option ref="3">$5,000 - $10,000</option>
-              <option ref="4"> > $10,000</option>
+            <select value={this.state.budgetValue}
+              onChange={this.handleBudget}>
+              <option defaultValue disabled>What is Your Estimated Budget?</option>
+              <option value="$0 - $2,000">$0 - $2,000</option>
+              <option value="$2,000 - $5,000">$2,000 - $5,000</option>
+              <option value="$5,000 - $10,000">$5,000 - $10,000</option>
+              <option value=" > $10,000"> > $10,000</option>
             </select>
           </div>
           <div className="form-group">

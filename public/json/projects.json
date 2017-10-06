@@ -12,8 +12,9 @@
     "title": "LAVATI",
     "description": "Visually Striking Footwear Campaign",
     "detailDescription": [
-      {"_id": 1, "paragraph": "Lavati is a young company but has quickly made a name for itself in luxury fashion. Italian-made and Manhattan-based, Lavati called us to the table to help them launch their second footwear collection."},
-      {"_id": 2, "paragraph": "We partnered up with Migos’ Offset to create Lavati’s premier lookbook and the media needed to launch our press and marketing campaigns."}
+      {"_id": 1, "paragraph": "It’s not often you hear of newly started fashion companies garnering as much reverence as well-established fashion empires. Lavati is exceeding expectations and has become a notable luxury footwear company amongst elite stars."},
+      {"_id": 2, "paragraph": "Italian-made and Manhattan-based, Lavati sought our creative power (or ingenuity) to match their ultramodern footwear collection."},
+      {"_id": 3, "paragraph": "We then partnered up with Migos’ Offset to curate Lavati’s premier lookbook and to generate novel digital content needed to launch press and marketing campaigns."}
     ],
     "detailServices": [
       {"_id": 1, "service": "Graphic Design, Web design and Styling"},
@@ -50,9 +51,10 @@
     "title": "TAPHAUS",
     "description": "Where Foodies Meet",
     "detailDescription": [
-      {"_id": 1, "paragraph": "Already a mainstay in Jersey City, Taphaus expanded their incredible selection of craft brews into Hoboken."},
-      {"_id": 2, "paragraph": "To help spread the word, we designed a campaign around one of Taphaus’ most unique selling points: their dog-friendly outdoor seating. The doggy brunch featured raffle prizes, gifts and play areas for the dogs and endless mimosas and french toast bites for the humans."},
-      {"_id": 3, "paragraph": "In all, the event garnered sponsorships from local pet businesses, cable news coverage, and a sold out brunch that had Taphaus bustling all afternoon."}
+      {"_id": 1, "paragraph": "We connected food enthusiasts to Jersey City’s Taphaus – whose incredible selection of craft brews has local news stations buzzing."},
+      {"_id": 2, "paragraph": "To help spread the word, we designed a campaign around one of Taphaus’ most unique selling points: their dog-friendly seating."},
+      {"_id": 3, "paragraph": "After this successful campaign, we kept this momentum going by consistently engaging with their online audience, providing original content and drawing up refreshing designs."},
+      {"_id": 4, "paragraph": "We created click-worthy newsletters and have strategized effective ad placements for this local burger joint to keep foodies coming back for more."}
     ],
     "detailServices": [
       {"_id": 1, "service": "Social Media Management"},
@@ -90,8 +92,9 @@
     "title": "BANE",
     "description": "Marketing a Monster",
     "detailDescription": [
-      {"_id": 1, "paragraph": "When asked their #1 goal, Bane replied, “To scare the shit out of 50,000 people”. This October will be the culmination of months of marketing and development."},
-      {"_id": 2, "paragraph": "Last year, over 30,000 visitors flocked to Bane to test their courage. To grow that figure, we advertised their escape rooms to increase brand awareness and relevance during the offseason. Their website received a well-needed facelift, and their social media was recharged to build anticipation for their Haunted House opening."}
+      {"_id": 1, "paragraph": "Bane, the number one haunted house in New Jersey, had one goal for us: “To scare the shit out of 50,000 people.” We happily accepted this challenge and prepared a hair-raising campaign for this highly sought-after haunted house."},
+      {"_id": 2, "paragraph": "All year long we make sure Bane’s large audience is anticipating the new season. We produce blood-curdling campaigns with stellar original photos and film to build up the hype for the new Halloween season. We also collaborate with key influencers to expand our client’s reach."},
+      {"_id": 3, "paragraph": "Our team redesigned Bane’s website and revamped their social media. Bane is now ready for their most anticipated season yet."}
     ],
     "detailServices": [
       {"_id": 1, "service": "Graphic & Web Design"},
@@ -130,13 +133,14 @@
     "title": "MADD COFFEE",
     "description": "Welcoming a New Coffee Brand",
     "detailDescription": [
-      {"_id": 1, "paragraph": "A new brand with a new product that walked into Ockupy with just a name and business plan."}
+      {"_id": 1, "paragraph": "A lifestyle paired with a product, MADD is a brand built on making a positive difference daily. They arrived to our office with an ethos, but lacked a visual identity."},
+      {"_id": 1, "paragraph": "We developed their brand strategy, ecommerce store, and marketing materials to align with their message and actualize their vision."}
     ],
     "detailServices": [
       {"_id": 1, "service": "Brand Identity"},
       {"_id": 2, "service": "Website Design"},
       {"_id": 3, "service": "Custom Shopify Template Development"},
-      {"_id": 4, "service": "(later) Packaging Design"}
+      {"_id": 4, "service": "Packaging Design (Coming Soon!)"}
     ],
     "website": "www.madd-coffee.com"
   },
@@ -152,7 +156,7 @@
     "title": "AEON",
     "description": "The Place for Your Finances",
     "detailDescription": [
-      {"_id": 1, "paragraph": "Aeon wanted a website that reflected their leading-edge investments."}
+      {"_id": 1, "paragraph": "Aeon was in need for a website that reflected their cutting edge investments. We developed a custom wordpress template to accentuate their brand and services."}
     ],
     "detailServices": [
       {"_id": 1, "service": "Custom Wordpress Template Development"}

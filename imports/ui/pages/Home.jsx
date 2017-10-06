@@ -32,6 +32,7 @@ class Home extends Component {
             opacity: 1,
             filter: 'alpha(opacity=100)',
             transition:'all .9s ease',
+            Moztransition:'all .9s ease',
             top:'0em'
           });
         }
@@ -55,7 +56,9 @@ class Home extends Component {
           $(this).css({
             height: '100%',
             transition: 'all 2s ease',
-            transitionDelay: '1s'
+            transitionDelay: '1s',
+            MozTransition: 'all 2s ease',
+            MozTransitionDelay: '1s'
           });
         }
       });

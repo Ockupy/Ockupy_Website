@@ -24,7 +24,8 @@ class About extends Component {
         if( bottom_of_window > bottom_of_object ){
           $('.about-bar-1').css({
             height: '100%',
-            transition: 'all 2.5s ease'
+            transition: 'all 2.5s ease',
+            MozTransition: 'all 2.5s ease'
           });
         }
       });
