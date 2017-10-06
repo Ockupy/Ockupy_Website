@@ -8,7 +8,7 @@ Meteor.methods({
 
     Meteor.defer(() => {
       Email.send({
-        to: 'Servio <servio@ockupy.com>',
+        to: 'Ockupy <info@ockupy.com>',
         from: `${message.name} ${message.email}`,
         subject: `${message.name} from ${message.company} sent an Email!`,
         text: `${message.message}`
