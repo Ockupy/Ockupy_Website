@@ -2,6 +2,7 @@
   {
     "_id": 1,
     "link": "lavati",
+    "beforeColor": "#dbdbdb",
     "projectImg": "/images/project-images/lavatiProject.jpg",
     "header": "/images/lavati/Case-Study_Lavati_v2_01.jpg",
     "image": "/images/lavati/Case-Study_Lavati_v2_03.jpg",
@@ -39,6 +40,7 @@
   {
     "_id": 2,
     "link": "taphaus",
+    "beforeColor": "#ed8c2e",
     "projectImg": "/images/project-images/taphausProject.jpg",
     "header": "/images/taphaus/Case-Study_taphaus_02.jpg",
     "image": "/images/taphaus/Case-Study_taphaus_06.jpg",
@@ -78,6 +80,7 @@
   {
     "_id": 3,
     "link": "bane",
+    "beforeColor": "#de7060",
     "projectImg": "/images/project-images/baneProject.jpg",
     "header": "/images/bane/Case-Study_bane_v2_01.jpg",
     "image": "/images/bane/Case-Study_bane_v2_02.jpg",
@@ -117,6 +120,7 @@
   {
     "_id": 4,
     "link": "madd",
+    "beforeColor": "#c59097",
     "projectImg": "/images/project-images/maddProject.jpg",
     "header": "/images/madd/Case-Study_Madd_02.jpg",
     "image": "/images/madd/Case-Study_Madd_05.jpg",
@@ -139,6 +143,7 @@
   {
     "_id": 5,
     "link": "aeon",
+    "beforeColor": "#9f87a3",
     "projectImg": "/images/project-images/aeonProject.jpg",
     "header": "/images/aeon/Case-Study_AeonFunds_01.jpg",
     "image": "",

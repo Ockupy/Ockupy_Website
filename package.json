@@ -11,7 +11,8 @@
     "meteor-node-stubs": "~0.2.4",
     "react": "*",
     "react-dom": "*",
-    "react-mounter": "*"
+    "react-mounter": "*",
+    "style-it": "^1.6.13"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4"

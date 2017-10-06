@@ -41,6 +41,9 @@ class ProjectDetail extends Component {
         </div>
         <div className="project-detail">
           <h2 className="title">{data.title}</h2>
+          <style dangerouslySetInnerHTML={{__html: `
+            .title::before { border-top: 15px solid ${data.beforeColor} }
+          `}} />
           <div className="info">
             <span>
               {data.detailDescription.map((p) => {

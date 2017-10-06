@@ -21,7 +21,6 @@
     position: relative;
 
     &::before {
-      border-top: 15px solid #dbdbdb !important;
       content: "";
       margin: 0 auto;
       position: absolute;
@@ -34,7 +33,7 @@
       -webkit-transform-origin: 50% 50%;
       transform-origin: 50% 50%;
       -webkit-box-shadow: -5px 5px 0px #eaeaea;
-      box-shadow: -4px 4px 1px #eaeaea;
+      box-shadow: -3px 3px 3px #c8c8c8;
     }
   }
 
